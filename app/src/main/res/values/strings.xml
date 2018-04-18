@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BinStore</string>
+
+    <!-- MenuNavigation -->
+    <string name="navigation_home">首页</string>
+    <string name="navigation_new">新品</string>
+    <string name="navigation_category">分类</string>
+    <string name="navigation_mine">我</string>
+
+</resources>
