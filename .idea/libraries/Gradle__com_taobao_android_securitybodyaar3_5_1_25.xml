@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: com.taobao.android:securitybodyaar3-5.1.25">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/securitybodyaar3/5.1.25/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.taobao.android/securitybodyaar3/5.1.25/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

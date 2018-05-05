@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="com.ali.auth.sdk:alibabauth_ui-1.4.3">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ali.auth.sdk/alibabauth_ui/1.4.3/res" />
+      <root url="jar://$PROJECT_DIR$/app/build/intermediates/exploded-aar/com.ali.auth.sdk/alibabauth_ui/1.4.3/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
