@@ -19,7 +19,7 @@ android {
     buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "com.bincontrol.binstore"
-        minSdkVersion 15
+        minSdkVersion 16
         targetSdkVersion 27
         versionCode 1
         versionName "1.0"
@@ -29,6 +29,12 @@ android {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
+    }
+    dexOptions {
+        jumboMode true
+    }
+    packagingOptions {
+        exclude 'META-INF/DEPENDENCIES'
     }
 }
 
@@ -48,9 +54,8 @@ dependencies {
     compile 'com.android.support:appcompat-v7:27.1.1'
     compile 'com.android.support:design:27.1.1'
     compile 'com.android.support:support-v4:27.1.1'
-
     /**
-     * 阿里SDK
+     *       阿里SDK
      */
     compile 'com.alibaba:fastjson:1.2.9'
     compile 'com.taobao.android:securityguardaar3:5.1.81@aar'
@@ -71,4 +76,32 @@ dependencies {
     compile 'com.alibaba.sdk.android:alibc_trade_common:3.1.1.206'
     compile 'com.alibaba.sdk.android:alibc_trade_biz:3.1.1.206'
     compile 'com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206'
+    /**
+     *     下拉刷新、上滑加载布局
+     */
+    compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
+    compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
+    /**
+     *     图片展播组件
+     */
+    compile project(':banner')
+    /**
+     *     搜索页面
+     */
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile 'com.facebook.fresco:fresco:0.12.0'
+    compile project(':searchview')
+    /**
+     * Apach HttpClient
+     */
+    compile files('libs/commons-codec-1.10.jar')
+    compile files('libs/commons-logging-1.2.jar')
+    compile files('libs/fluent-hc-4.5.5.jar')
+    compile files('libs/httpclient-4.5.5.jar')
+    compile files('libs/httpclient-cache-4.5.5.jar')
+    compile files('libs/httpclient-win-4.5.5.jar')
+    compile files('libs/httpcore-4.4.9.jar')
+    compile files('libs/httpmime-4.5.5.jar')
+    compile files('libs/jna-4.4.0.jar')
+    compile files('libs/jna-platform-4.4.0.jar')
 }

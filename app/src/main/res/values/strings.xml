@@ -1,10 +1,34 @@
 <resources>
     <string name="app_name">BinStore</string>
 
-    <!-- MenuNavigation -->
+    <!-- MainActivity -->
     <string name="navigation_home">首页</string>
-    <string name="navigation_new">新品</string>
-    <string name="navigation_category">分类</string>
-    <string name="navigation_mine">我</string>
+    <string name="navigation_search">搜索</string>
+    <string name="navigation_agency">赚钱</string>
+    <string name="navigation_mine">我的</string>
 
+    <!-- HomeFragment -->
+    <string name="category_item_01">女装</string>
+    <string name="category_item_02">母婴</string>
+    <string name="category_item_03">美妆</string>
+    <string name="category_item_04">家居</string>
+    <string name="category_item_05">内衣</string>
+    <string name="category_item_06">男装</string>
+    <string name="category_item_07">美食</string>
+    <string name="category_item_08">数码</string>
+    <string name="category_item_09">鞋包</string>
+    <string name="category_item_10">其它</string>
+
+    <!-- GenericCategoryActivity -->
+    <string name="show_type_default">综合</string>
+    <string name="show_type_price">券后价</string>
+    <string name="show_type_sales">销量</string>
+
+    <!-- Image content description -->
+    <string name="category_item_image">商品类别图标</string>
+    <string name="commodity_picture">商品图片</string>
+    <string name="ascending_order_image">升序图标-正三角</string>
+    <string name="descending_order_image">降序图标-倒三角</string>
+    <string name="list_view_image">列表图标</string>
+    <string name="grid_view_image">网格图标</string>
 </resources>
