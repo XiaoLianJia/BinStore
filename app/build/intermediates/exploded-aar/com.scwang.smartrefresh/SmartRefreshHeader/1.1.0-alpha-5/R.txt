@@ -1,0 +1,88 @@
+int attr dhDrawable1 0x7f010000
+int attr dhDrawable2 0x7f010001
+int attr dhDrawable3 0x7f010002
+int attr fghBackColor 0x7f01000b
+int attr fghBallSpeed 0x7f010004
+int attr fghBlockHorizontalNum 0x7f010003
+int attr fghLeftColor 0x7f01000c
+int attr fghMaskTextBottom 0x7f010008
+int attr fghMaskTextSizeBottom 0x7f01000a
+int attr fghMaskTextSizeTop 0x7f010009
+int attr fghMaskTextTop 0x7f010005
+int attr fghMaskTextTopPull 0x7f010006
+int attr fghMaskTextTopRelease 0x7f010007
+int attr fghMiddleColor 0x7f01000d
+int attr fghRightColor 0x7f01000e
+int attr fghTextGameOver 0x7f010012
+int attr fghTextLoading 0x7f01000f
+int attr fghTextLoadingFailed 0x7f010011
+int attr fghTextLoadingFinished 0x7f010010
+int attr mhPrimaryColor 0x7f010013
+int attr mhShadowColor 0x7f010014
+int attr mhShadowRadius 0x7f010015
+int attr mhShowBezierWave 0x7f010016
+int attr msvPrimaryColor 0x7f010017
+int attr msvViewportHeight 0x7f010018
+int attr phAccentColor 0x7f01001a
+int attr phPrimaryColor 0x7f010019
+int attr shhDropHeight 0x7f01001d
+int attr shhEnableFadeAnimation 0x7f01001e
+int attr shhLineWidth 0x7f01001c
+int attr shhText 0x7f01001b
+int attr thPrimaryColor 0x7f01001f
+int attr wshAccentColor 0x7f010021
+int attr wshPrimaryColor 0x7f010020
+int attr wshShadowColor 0x7f010022
+int attr wshShadowRadius 0x7f010023
+int string fgh_mask_bottom 0x7f020000
+int string fgh_mask_top_pull 0x7f020001
+int string fgh_mask_top_release 0x7f020002
+int string fgh_text_game_over 0x7f020003
+int string fgh_text_loading 0x7f020004
+int string fgh_text_loading_failed 0x7f020005
+int string fgh_text_loading_finish 0x7f020006
+int[] styleable DropBoxHeader { 0x7f010000, 0x7f010001, 0x7f010002 }
+int styleable DropBoxHeader_dhDrawable1 0
+int styleable DropBoxHeader_dhDrawable2 1
+int styleable DropBoxHeader_dhDrawable3 2
+int[] styleable FunGameHitBlockHeader { 0x7f010003, 0x7f010004 }
+int styleable FunGameHitBlockHeader_fghBallSpeed 1
+int styleable FunGameHitBlockHeader_fghBlockHorizontalNum 0
+int[] styleable FunGameView { 0x7f010005, 0x7f010006, 0x7f010007, 0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f, 0x7f010010, 0x7f010011, 0x7f010012 }
+int styleable FunGameView_fghBackColor 6
+int styleable FunGameView_fghLeftColor 7
+int styleable FunGameView_fghMaskTextBottom 3
+int styleable FunGameView_fghMaskTextSizeBottom 5
+int styleable FunGameView_fghMaskTextSizeTop 4
+int styleable FunGameView_fghMaskTextTop 0
+int styleable FunGameView_fghMaskTextTopPull 1
+int styleable FunGameView_fghMaskTextTopRelease 2
+int styleable FunGameView_fghMiddleColor 8
+int styleable FunGameView_fghRightColor 9
+int styleable FunGameView_fghTextGameOver 13
+int styleable FunGameView_fghTextLoading 10
+int styleable FunGameView_fghTextLoadingFailed 12
+int styleable FunGameView_fghTextLoadingFinished 11
+int[] styleable MaterialHeader { 0x7f010013, 0x7f010014, 0x7f010015, 0x7f010016 }
+int styleable MaterialHeader_mhPrimaryColor 0
+int styleable MaterialHeader_mhShadowColor 1
+int styleable MaterialHeader_mhShadowRadius 2
+int styleable MaterialHeader_mhShowBezierWave 3
+int[] styleable MountainSceneView { 0x7f010017, 0x7f010018 }
+int styleable MountainSceneView_msvPrimaryColor 0
+int styleable MountainSceneView_msvViewportHeight 1
+int[] styleable PhoenixHeader { 0x7f010019, 0x7f01001a }
+int styleable PhoenixHeader_phAccentColor 1
+int styleable PhoenixHeader_phPrimaryColor 0
+int[] styleable StoreHouseHeader { 0x7f01001b, 0x7f01001c, 0x7f01001d, 0x7f01001e }
+int styleable StoreHouseHeader_shhDropHeight 2
+int styleable StoreHouseHeader_shhEnableFadeAnimation 3
+int styleable StoreHouseHeader_shhLineWidth 1
+int styleable StoreHouseHeader_shhText 0
+int[] styleable TaurusHeader { 0x7f01001f }
+int styleable TaurusHeader_thPrimaryColor 0
+int[] styleable WaveSwipeHeader { 0x7f010020, 0x7f010021, 0x7f010022, 0x7f010023 }
+int styleable WaveSwipeHeader_wshAccentColor 1
+int styleable WaveSwipeHeader_wshPrimaryColor 0
+int styleable WaveSwipeHeader_wshShadowColor 2
+int styleable WaveSwipeHeader_wshShadowRadius 3

@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout-v21\\notification_action.xml"
+    }
+]

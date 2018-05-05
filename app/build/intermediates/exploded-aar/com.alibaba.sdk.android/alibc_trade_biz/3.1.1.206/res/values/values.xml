@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="webviewload_monitor_cancel_point" type="id">webviewload_monitor_cancel_point</item>
+    <string name="app_name">AlibcTradeBiz</string>
+</resources>

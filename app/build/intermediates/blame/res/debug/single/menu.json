@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navigation_main.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\menu\\menu_navigation_main.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navigation_category.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\menu\\menu_navigation_category.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navigation_category.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\src\\main\\res\\menu\\menu_navigation_category.xml"
+    },
+    {
+        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_navigation_main.xml",
+        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\src\\main\\res\\menu\\menu_navigation_main.xml"
+    }
+]

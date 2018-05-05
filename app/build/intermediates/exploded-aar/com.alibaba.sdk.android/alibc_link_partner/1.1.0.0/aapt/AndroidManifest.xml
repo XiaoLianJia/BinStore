@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.alibaba.alibclinkpartner"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+
+    <application android:supportsRtl="true" >
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPWebviewActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" />
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPCallbackActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+        </activity>
+        <activity
+            android:name="com.alibaba.alibclinkpartner.ui.ALPEntranceActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|screenSize" >
+            <intent-filter>
+                <action android:name="com.alibaba.intent.action.GETWAY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="linkpartner"
+                    android:pathPrefix="/entrance"
+                    android:scheme="tbopen" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
