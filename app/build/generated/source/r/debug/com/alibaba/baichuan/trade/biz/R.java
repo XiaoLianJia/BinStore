@@ -11,7 +11,7 @@ public final class R {
 		public static final int webviewload_monitor_cancel_point = 0x7f0f0027;
 	}
 	public static final class layout {
-		public static final int com_alibaba_bc_layout = 0x7f040023;
+		public static final int com_alibaba_bc_layout = 0x7f040024;
 	}
 	public static final class string {
 		public static final int app_name = 0x7f080067;

@@ -30,8 +30,8 @@ public final class R {
 	public static final class drawable {
 		public static final int black_background = 0x7f020057;
 		public static final int gray_radius = 0x7f020067;
-		public static final int no_banner = 0x7f020084;
-		public static final int white_radius = 0x7f020097;
+		public static final int no_banner = 0x7f020088;
+		public static final int white_radius = 0x7f02009c;
 	}
 	public static final class id {
 		public static final int bannerContainer = 0x7f0f0004;
@@ -53,7 +53,7 @@ public final class R {
 		public static final int titleView = 0x7f0f001f;
 	}
 	public static final class layout {
-		public static final int banner = 0x7f040022;
+		public static final int banner = 0x7f040023;
 	}
 	public static final class styleable {
 		public static final int[] Banner = { 0x7f0100fa, 0x7f0100fb, 0x7f0100fc, 0x7f0100fd, 0x7f0100fe, 0x7f0100ff, 0x7f010100, 0x7f010101, 0x7f010102, 0x7f010103, 0x7f010104, 0x7f010105, 0x7f010106, 0x7f010107, 0x7f010108 };

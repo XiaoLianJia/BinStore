@@ -24,6 +24,12 @@
     <string name="show_type_price">券后价</string>
     <string name="show_type_sales">销量</string>
 
+    <!-- LoginActivity -->
+    <string name="edit_hint_account">请输入手机号</string>
+    <string name="edit_hint_password">请输入密码</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+
     <!-- Image content description -->
     <string name="category_item_image">商品类别图标</string>
     <string name="commodity_picture">商品图片</string>
@@ -31,4 +37,8 @@
     <string name="descending_order_image">降序图标-倒三角</string>
     <string name="list_view_image">列表图标</string>
     <string name="grid_view_image">网格图标</string>
+    <string name="login_account">帐号图标</string>
+    <string name="login_password">密码图标</string>
+    <string name="login_password_peek">密码显示或者隐藏图标</string>
+
 </resources>

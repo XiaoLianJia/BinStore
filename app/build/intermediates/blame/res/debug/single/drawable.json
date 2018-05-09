@@ -32,6 +32,10 @@
         "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_peek.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\selector_peek.xml"
+    },
+    {
         "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
         "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_dark.xml"
     },
@@ -50,6 +54,10 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_button.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\selector_button.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\divider_background.xml",
@@ -234,10 +242,6 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibc_trade_auth_close.png",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.alibaba.sdk.android\\alibc_trade_sdk\\3.1.1.206\\res\\drawable\\com_alibc_trade_auth_close.png"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_tablayout_tab.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\selector_tablayout_tab.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",

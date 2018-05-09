@@ -21,11 +21,11 @@ public final class R {
 		public static final int com_taobao_tae_sdk_web_view_title_bar_close = 0x7f02005f;
 	}
 	public static final class id {
-		public static final int ali_auth_qrview = 0x7f0f00c4;
-		public static final int ali_auth_webview = 0x7f0f00c5;
+		public static final int ali_auth_qrview = 0x7f0f00ca;
+		public static final int ali_auth_webview = 0x7f0f00cb;
 	}
 	public static final class layout {
-		public static final int ali_auth_qrview = 0x7f040021;
+		public static final int ali_auth_qrview = 0x7f040022;
 	}
 	public static final class string {
 		public static final int alisdk_message_17_action = 0x7f080040;

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-29:12
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-37:12
 	package
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml
@@ -32,8 +32,20 @@ MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinSt
 MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:5-71
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:5-71
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:5-72
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:22-69
 application
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:8:5-27:19
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:5-35:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:24:5-27:19
 MERGED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:14:5-17:19
@@ -58,47 +70,51 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5] D:\GitRep
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshHeader\1.1.0-alpha-5\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:cardview-v7:25.3.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:9-41
 	android:supportsRtl
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:18:9-35
 	android:allowBackup
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:9-35
 		REJECTED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:25:9-36
 		REJECTED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:15:9-36
 	android:icon
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:9-43
 	android:theme
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:9-65
 	tools:replace
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:20:9-44
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:14:9-44
 activity#com.bincontrol.binstore.ui.activity.MainActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:9-62
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:9-62
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:19-59
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:19-59
 activity#com.bincontrol.binstore.ui.activity.SplashActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:9-23:20
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:22:9-23:20
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:19-61
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:18:13-22:29
-action#android.intent.action.MAIN
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:17-69
-	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:25-66
-category#android.intent.category.LAUNCHER
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:17-77
-	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:27-74
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:22:19-61
 activity#com.bincontrol.binstore.ui.activity.GenericCategoryActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:24:9-26:70
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:24:9-27:60
 	android:parentActivityName
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:26:13-67
 	android:theme
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:25:13-57
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:27:13-57
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:24:19-70
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:25:13-64
+activity#com.bincontrol.binstore.ui.activity.LoginActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:28:9-34:20
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:28:19-60
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:13-33:29
+action#android.intent.action.MAIN
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:30:17-69
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:30:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:32:17-77
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:32:27-74
 uses-sdk
 INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\AndroidManifest.xml:5:5-7:41
@@ -578,7 +594,7 @@ MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app
 	android:name
 		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:22:22-65
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-29:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-37:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.CHANGE_CONFIGURATION
 ADDED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:15:5-79
 	android:name

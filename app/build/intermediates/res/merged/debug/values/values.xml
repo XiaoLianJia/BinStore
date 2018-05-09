@@ -221,6 +221,8 @@
     <color name="bright_foreground_material_light">@android:color/black</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
+    <color name="button_normal">#FF9900</color>
+    <color name="button_pressed">#FFD39B</color>
     <color name="cardview_dark_background">#FF424242</color>
     <color name="cardview_light_background">#FFFFFFFF</color>
     <color name="cardview_shadow_end_color">#03000000</color>
@@ -300,8 +302,8 @@
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tab_checked">#3F51B5</color>
-    <color name="tab_normal">#c5c9d0</color>
-    <color name="tab_selected">#fb773b</color>
+    <color name="tab_normal">#C5C9D0</color>
+    <color name="tab_selected">#FB773B</color>
     <color name="tab_unchecked">#757575</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
@@ -754,6 +756,8 @@
     <string name="com_taobao_tae_sdk_system_exception">系统异常</string>
     <string name="commodity_picture">商品图片</string>
     <string name="descending_order_image">降序图标-倒三角</string>
+    <string name="edit_hint_account">请输入手机号</string>
+    <string name="edit_hint_password">请输入密码</string>
     <string name="fgh_mask_bottom">Scroll to move handle</string>
     <string name="fgh_mask_top_pull">Pull To Break Out!</string>
     <string name="fgh_mask_top_release">Release To Break Out!</string>
@@ -764,6 +768,10 @@
     <string name="grid_view_image">网格图标</string>
     <string name="init_success">初始化完成</string>
     <string name="list_view_image">列表图标</string>
+    <string name="login">登录</string>
+    <string name="login_account">帐号图标</string>
+    <string name="login_password">密码图标</string>
+    <string name="login_password_peek">密码显示或者隐藏图标</string>
     <string name="navigation_agency">赚钱</string>
     <string name="navigation_home">首页</string>
     <string name="navigation_mine">我的</string>
@@ -773,6 +781,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="register">注册</string>
     <string name="search_menu_title">Search</string>
     <string name="show_type_default">综合</string>
     <string name="show_type_price">券后价</string>
