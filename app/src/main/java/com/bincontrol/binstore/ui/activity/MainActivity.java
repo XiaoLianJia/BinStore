@@ -34,7 +34,7 @@ public class MainActivity extends BaseActivity {
      */
     private void initBottomNavigationView() {
 
-        mBottomNavigationView = (BottomNavigationView) findViewById(R.id.bottom_navigation_view);
+        mBottomNavigationView = findViewById(R.id.bottom_navigation_view);
         mBottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
@@ -63,7 +63,7 @@ public class MainActivity extends BaseActivity {
      * 初始化页面
      */
     private void initViewPager() {
-        mViewPager = (ViewPager) findViewById(R.id.view_pager);
+        mViewPager = findViewById(R.id.view_pager);
         mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {}

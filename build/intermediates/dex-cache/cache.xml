@@ -1,3 +1,432 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
 
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\qcloudsms-1.0.2.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="22218ce06becb4abba6e9ceaba4319e0c32ac62b">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\qcloudsms-1.0.2_b39fa258dfb48dac4a28e86aaa0c9c17441c85e7.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.youth.banner\banner\1.4.10\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="5a1f7b731f7c4acae3c5ab8163273abdadf2677d">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.youth.banner-banner-1.4.10_7f9f3683e856aba3a720b226a65d3328598fe1d5.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="40e5cb8708fc25fe57cb403cc82e9ef98376b648">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-0.12.0_8408a8b0be5986f483b6d6efb636f4c6129afb75.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\commons-codec-1.10.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="4b95f4897fa13f2cd904aee711aeafc0c5295cd8">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\commons-codec-1.10_7e95725993fa9eef0e23aba9bc5f28dcb0b6e4ec.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.alibaba\fastjson\1.2.9\3a6e5f623dccd587c3d3cffd4fde80261f326715\fastjson-1.2.9.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="3a6e5f623dccd587c3d3cffd4fde80261f326715">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\fastjson-1.2.9_4f13d5d1b8e4f3ff5b55084c11625f2ec2258830.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshHeader\1.1.0-alpha-5\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="2e9cffd14b7c37f1ba79872f2c3dc38e389935bb">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.scwang.smartrefresh-SmartRefreshHeader-1.1.0-alpha-5_64519f7bd9566c1d2db1799e8d56e2796ae7cfd1.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.alibaba.mtl\app-monitor-sdk\2.5.1.3_for_bc_proguard\8a852ea5d5257dc7f72f1e4e031531543f15ac26\app-monitor-sdk-2.5.1.3_for_bc_proguard.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="8a852ea5d5257dc7f72f1e4e031531543f15ac26">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\app-monitor-sdk-2.5.1.3_for_bc_proguard_f447fb9eff4634fd1e4dc232093aa85d92a195f8.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.ali.auth.sdk\alibabauth_core\1.4.3\94a85e41b28998ecacba22f26b6c534a953df23\alibabauth_core-1.4.3.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="094a85e41b28998ecacba22f26b6c534a953df23">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\alibabauth_core-1.4.3_aec7b267d4d321056eeaa0df4b1463000188ac3a.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.ali.auth.sdk\alibabauth_ui\1.4.3\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="bce893b829644ac276c29bfe00ca2ddb09127a74">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.ali.auth.sdk-alibabauth_ui-1.4.3_3d70319f0a760c5c8da4daffde0b2ae73ea6ac84.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\httpcore-4.4.9.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="3b97a44bc26e22711755209e639aca011b287c98">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\httpcore-4.4.9_4a104beac4da0ce1653c573e83aee1cefa65b515.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.taobao.android\utdid4all\1.1.5.3_proguard\989c3bb13060da1e3154bfe00236f76453a2725f\utdid4all-1.1.5.3_proguard.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="989c3bb13060da1e3154bfe00236f76453a2725f">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\utdid4all-1.1.5.3_proguard_b52d08a3470a21da2360b1018b795575f60918bc.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_biz\3.1.1.206\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="d912c051c932032141764f821d01172cc5f9cc78">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.alibaba.sdk.android-alibc_trade_biz-3.1.1.206_6fb08ba7d7a7d96390fa2694d23f3967d82a62b5.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-runtime-1.1.0_5987864aff79581d35d9434a17bb7327d3b6aa94.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\android.arch.lifecycle\common\1.1.0\edf3f7bfb84a7521d0599efa3b0113a0ee90f85\common-1.1.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="0edf3f7bfb84a7521d0599efa3b0113a0ee90f85">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\common-1.1.0_283ef8e049c17506b67f7e753dfd5ccf4033f330.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="50448bb1d3c9260cc8fd6bb5575e87d7b1ca0b5b">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.alimama.tunion.sdk-tuniontradesdk-0.3.2_702f508518907b35b173caf4a3771e62b347dfd1.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\commons-logging-1.2.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="4bfc12adfe4842bf07b657f0369c4cb522955686">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\commons-logging-1.2_38031d485c9c581d5db490779860ba35e209000c.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\httpclient-4.5.5.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1603dfd56ebcd583ccdf337b6c3984ac55d89e58">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\httpclient-4.5.5_21bbbb6fc61f4804e71eaf7a8b90029f3556e595.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="874f1143c11f5d38533efe512bf913e3e847e7df">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-ui-27.1.1_f7804c88b697e4d033bff57965c6468920a72cc7.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="71d380aeac037e63bab7bda2ba211777e16a2f42">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\android.arch.core-runtime-1.1.0_2281ebe825ef078eec953f6545fe09643a1fc8ee.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshLayout\1.1.0-alpha-5\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1f1ff9d43679b099154225f520bb2e25c0d642ee">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.scwang.smartrefresh-SmartRefreshLayout-1.1.0-alpha-5_f00318b1b40c5f362ce88b960f5c1b066ee2b409.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\common-1.1.0_4a89eb26c2efc715c4d2263050224fdcf643f779.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\fluent-hc-4.5.5.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1af996e860dc8e246f4aca944f76f0513d41acc0">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\fluent-hc-4.5.5_716d3afc48ba3df5b0d343f8b8b0bdec2026a9ae.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="88c68e5ef7c5ace393d014c9ec5fe736b1ca55cf">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-media-compat-27.1.1_4c5a067855f93ff06963ac83552b1476c2802cd4.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="145da27a459a63ea0c4e318930365cf0a8b8e891">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-0.12.0_4440c7d32a8d6a5e9957282366dcd02a7c3916a8.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="f067607b0ca6f4421966379283dea27ef7bc63d0">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.taobao.android-securityguardaar3-5.1.81_d735bbfc6214992c119b54565be138ce7c17fd34.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_common\3.1.1.206\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="4ebf7d7e79f8afcd03e73481792043fce3edb852">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.alibaba.sdk.android-alibc_trade_common-3.1.1.206_571b2f6f8670dbbc487c301284f24e42082da7bd.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1e346707e4770db216049a532ab3eb5e317cf82a">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-0.12.0_bcaeca29416595edbc0b93d051716d4b50b54cf2.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="c9a721adcd7dbae7a197b0ef81102336539f63ff">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-27.1.1_ebcbbd0d81a6f2e740b35fde9f5a8ffe5a14b229.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="c9a86e6bc8300fc00c191949ac61a2f7165e35c7">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-0.12.0_67b244c063b4cc18468ce5a0ff9e9683c946b9e9.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-cardview-v7-25.3.1_bf3540a2e004466ce594863c6beb7d63946ccd45.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\httpmime-4.5.5.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="8281b24b8a493374cd2aa8a90c4156588f7dbcb6">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\httpmime-4.5.5_38731da0c69bd927c8890a75a05d058995eda75b.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="fcb65a248085d9cc640997a34b412affebce6359">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.alibaba.sdk.android-alibc_link_partner-1.1.0.0_6ed7a630a9749a8d6685275bff4b2d89585a0c23.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\0.12.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="a540784239c611ea490593e2053a5e2890675c68">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-0.12.0_5b6188b7997646013aac740ca024c6f4098ca96f.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="8a9fd7c97f1d13f97f3b52f9d2e54cd857d5acf9">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-livedata-core-1.1.0_d73d6ff9f1da0e3524ab5c4a062954c78d3346c0.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.7.0\9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4\glide-3.7.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\glide-3.7.0_7aca32b5434c0d3d21b83042f58518b7df2dbb24.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="6a80bcea22652d0ffebfebf944923cc43f13af58">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.taobao.android-securitybodyaar3-5.1.25_b233b0865c110e7fb6e3823b375d79e944431748.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_44bf8b3e4bb032edbd8fa615f6d738c9e43538bb.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\design\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-design-27.1.1_6b6179362cae3671ded0533a5a2848d5bfecf7da.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\transition\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-transition-27.1.1_c8aed088870a234a8a05b94993640f95d3c33b91.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.ali.auth.sdk\alibabauth_ext\1.4.3\868d7e67a59b9ad60b99338bd611ebf272db86af\alibabauth_ext-1.4.3.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="868d7e67a59b9ad60b99338bd611ebf272db86af">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\alibabauth_ext-1.4.3_182c802a828f19766b2a5e5c867eb35b092e529f.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="ec657bb192b20229696216bf233779b16bf75a54">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-core-utils-27.1.1_0cc371cb392179929e033305967f03fac7236c3b.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\jna-4.4.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="cb208278274bf12ebdb56c61bd7407e6f774d65a">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\jna-4.4.0_3e847a004bb7dcfcc0b7760b3a1375ce53b0aa9a.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.taobao.android\mtopsdk_allinone_open\1.2.2.4\6572b3342d7412f86a41193a8570dab8bc096b7b\mtopsdk_allinone_open-1.2.2.4.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="6572b3342d7412f86a41193a8570dab8bc096b7b">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\mtopsdk_allinone_open-1.2.2.4_f3e921a1170dc803464b0b9c7abd2079e421e0e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\library-2.4.0_e2b3cd8144b5f884dc2b1196483672c2e9487b30.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\httpclient-win-4.5.5.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="71904207afc94176b6f9e17f9b77d025cb80b88a">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\httpclient-win-4.5.5_d39e256e23100f03553d7e43672cb3c174f97842.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-27.1.1_b912e7ed640219711ba6a20df55ed7b4d3c748e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.0\931532e953a477f876f2de18c2e7f16eee01078f\constraint-layout-solver-1.1.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="931532e953a477f876f2de18c2e7f16eee01078f">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.1.0_903158d151a4943c28f636cd8f00f910ba997cc5.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\sun.misc.BASE64Decoder.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="acd93e3727886196f9b8434279ff445ba8611186">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\sun.misc.BASE64Decoder_3264bb96ba07c6cfd047f9c0fc3f16e49239d844.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\BinStore\searchview\unspecified\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="561fce82caffde4375bb58e1c46dfa0f819cf004">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\BinStore-searchview-unspecified_85d275c3dd71a95bd5aaca87e88e0027b1ef3692.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.alibaba.alipay\alipaySingle\20160825\54d2df3b366123f2920605d6906a959619ac4dd8\alipaySingle-20160825.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="54d2df3b366123f2920605d6906a959619ac4dd8">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\alipaySingle-20160825_c29ce23d4762eaf9f34b028644e5b72b8d54d6ca.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="3304d33470ff64cf83bce9189ff3648a42eb2aa7">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-fragment-27.1.1_276d51c1afb8eff6f6033ef6ddeb529a3a55ade8.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\httpclient-cache-4.5.5.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="8115af15235c603db957db37f24e0faa168474f7">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\httpclient-cache-4.5.5_aef580cf04b19b9cd73fc4f2d339419385cb0765.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="577ef4c91b4ada2f80f16d053dc60748f667ecfa">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.alibaba.sdk.android-alibc_trade_sdk-3.1.1.206_0b268ebdebb8276da2496ac96acc8b8afcefe535.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="4d2b8ad415048e88b41ba4afcaafe36150e69b8c">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-27.1.1_5c7547a55fe14f6a874958489db29fa5d82b96d1.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="2feadd535770271ca57b7b431f42151aa4af324a">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-27.1.1_58f5e454662363e580047e7dc4ddde70a4c5983d.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\android.arch.lifecycle-viewmodel-1.1.0_ff0747a8fbc780031b9dc3a8d374885532c283b3.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="23dcb4803d3103bde3f3f5db978a726338fe49ae">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support-support-compat-27.1.1_590e56359dca9bc157cc9baee122ad9db1e823f5.jar" />
+    </item>
+    <item
+        jar="C:\Users\zhangbin\.gradle\caches\modules-2\files-2.1\com.android.support\support-annotations\27.1.1\39ded76b5e1ce1c5b2688e1d25cdc20ecee32007\support-annotations-27.1.1.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="39ded76b5e1ce1c5b2688e1d25cdc20ecee32007">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\support-annotations-27.1.1_def411b77469d8b454d36d59bbf048c2123ac541.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.bartoszlipinski\viewpropertyobjectanimator\1.2.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="1828dd75d357690efb2c5f4326804e2f7ad21f6c">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.bartoszlipinski-viewpropertyobjectanimator-1.2.0_4f9f50e54b41c0b46c197cd93830bcd9536974c0.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\jars\classes.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="f46121a7c3b3ba958fc27c39447ae205be23ac4a">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\com.android.support.constraint-constraint-layout-1.1.0_2b21345f775628e9826c97715092f187d74b0aa1.jar" />
+    </item>
+    <item
+        jar="D:\GitRepository\BinStore\app\libs\jna-platform-4.4.0.jar"
+        jumboMode="true"
+        revision="27.0.3"
+        sha1="f396b0ceb7ababb8b4a5ea25e6742ced81e3d86f">
+        <dex dex="D:\GitRepository\BinStore\app\build\intermediates\pre-dexed\debug\jna-platform-4.4.0_1390cc2c01c7768156318c8cf57d052b2b03ec07.jar" />
+    </item>
+
+</items>

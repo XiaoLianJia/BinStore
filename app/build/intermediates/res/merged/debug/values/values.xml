@@ -219,6 +219,7 @@
     <color name="bright_foreground_inverse_material_light">@color/bright_foreground_material_dark</color>
     <color name="bright_foreground_material_dark">@android:color/white</color>
     <color name="bright_foreground_material_light">@android:color/black</color>
+    <color name="button_disable">#EFECCA</color>
     <color name="button_material_dark">#ff5a595b</color>
     <color name="button_material_light">#ffd6d7d7</color>
     <color name="button_normal">#FF9900</color>
@@ -758,6 +759,7 @@
     <string name="descending_order_image">降序图标-倒三角</string>
     <string name="edit_hint_account">请输入手机号</string>
     <string name="edit_hint_password">请输入密码</string>
+    <string name="edit_hint_security">请输入验证码</string>
     <string name="fgh_mask_bottom">Scroll to move handle</string>
     <string name="fgh_mask_top_pull">Pull To Break Out!</string>
     <string name="fgh_mask_top_release">Release To Break Out!</string>
@@ -765,6 +767,7 @@
     <string name="fgh_text_loading">Refreshing…</string>
     <string name="fgh_text_loading_failed">Refreshing Failed</string>
     <string name="fgh_text_loading_finish">Refreshing Finished</string>
+    <string name="get_security_code">获取验证码</string>
     <string name="grid_view_image">网格图标</string>
     <string name="init_success">初始化完成</string>
     <string name="list_view_image">列表图标</string>
@@ -772,6 +775,7 @@
     <string name="login_account">帐号图标</string>
     <string name="login_password">密码图标</string>
     <string name="login_password_peek">密码显示或者隐藏图标</string>
+    <string name="login_security_code">验证码图标</string>
     <string name="navigation_agency">赚钱</string>
     <string name="navigation_home">首页</string>
     <string name="navigation_mine">我的</string>
@@ -781,6 +785,7 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
+    <string name="refresh_security_code">重新获取</string>
     <string name="register">注册</string>
     <string name="search_menu_title">Search</string>
     <string name="show_type_default">综合</string>

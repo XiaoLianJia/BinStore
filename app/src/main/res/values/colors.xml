@@ -10,6 +10,7 @@
     <color name="tab_normal">#C5C9D0</color>
     <color name="button_pressed">#FFD39B</color>
     <color name="button_normal">#FF9900</color>
+    <color name="button_disable">#EFECCA</color>
 
     <color name="white">#FFFFFF</color>
     <color name="orange">#FF9900</color>

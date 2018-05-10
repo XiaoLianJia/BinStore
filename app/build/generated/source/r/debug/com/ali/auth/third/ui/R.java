@@ -21,8 +21,8 @@ public final class R {
 		public static final int com_taobao_tae_sdk_web_view_title_bar_close = 0x7f02005f;
 	}
 	public static final class id {
-		public static final int ali_auth_qrview = 0x7f0f00ca;
-		public static final int ali_auth_webview = 0x7f0f00cb;
+		public static final int ali_auth_qrview = 0x7f0f00ce;
+		public static final int ali_auth_webview = 0x7f0f00cf;
 	}
 	public static final class layout {
 		public static final int ali_auth_qrview = 0x7f040022;

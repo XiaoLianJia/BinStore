@@ -1,0 +1,121 @@
+-injars 'D:\GitRepository\BinStore\app\build\intermediates\transforms\jarMerging\debug\jars\1\1f\combined.jar'
+-outjars 'D:\GitRepository\BinStore\app\build\intermediates\multi-dex\debug\componentClasses.jar'
+
+-libraryjars 'D:\Android\Android-SDK\build-tools\27.0.3\lib\shrinkedAndroid.jar'
+
+-forceprocessing
+-dontoptimize
+-dontobfuscate
+-dontusemixedcaseclassnames
+-dontpreverify
+-dontnote **,com.android.tools.fd.**,android.support.multidex.MultiDexExtractor
+-dontwarn **
+-printconfiguration 'D:\GitRepository\BinStore\app\build\intermediates\multi-dex\debug\components.flags'
+
+
+-keep class com.bincontrol.binstore.BinStoreApplication {
+    <init>();
+    void attachBaseContext(android.content.Context);
+}
+
+-keep class com.bincontrol.binstore.ui.activity.MainActivity {
+    <init>();
+}
+
+-keep class com.bincontrol.binstore.ui.activity.SplashActivity {
+    <init>();
+}
+
+-keep class com.bincontrol.binstore.ui.activity.GenericCategoryActivity {
+    <init>();
+}
+
+-keep class com.bincontrol.binstore.ui.activity.LoginActivity {
+    <init>();
+}
+
+-keep class com.bincontrol.binstore.ui.activity.RegisterActivity {
+    <init>();
+}
+
+-keep class com.alibaba.alibclinkpartner.ui.ALPWebviewActivity {
+    <init>();
+}
+
+-keep class com.alibaba.alibclinkpartner.ui.ALPCallbackActivity {
+    <init>();
+}
+
+-keep class com.alibaba.alibclinkpartner.ui.ALPEntranceActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.ui.webview.BaseWebViewActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.ui.LoginWebViewActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.ui.LoginActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.accountlink.ui.BindResultActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.accountlink.ui.UnbindWebViewActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.ui.QrLoginConfirmActivity {
+    <init>();
+}
+
+-keep class com.ali.auth.third.ui.QrLoginActivity {
+    <init>();
+}
+
+-keep class com.alibaba.baichuan.trade.biz.auth.AlibcAuthActivity {
+    <init>();
+}
+
+-keep class com.alibaba.baichuan.android.trade.ui.AlibcWebViewActivity {
+    <init>();
+}
+
+-keep class com.alibaba.baichuan.android.trade.ui.AlibcBackActivity {
+    <init>();
+}
+
+-keep class com.alipay.sdk.app.H5PayActivity {
+    <init>();
+}
+
+-keep class com.alipay.sdk.auth.AuthActivity {
+    <init>();
+}
+
+-keep class anetwork.channel.aidl.NetworkService {
+    <init>();
+}
+
+-keep class mtopsdk.xstate.XStateService {
+    <init>();
+}
+
+-keep public class * extends android.app.backup.BackupAgent {
+    <init>();
+}
+
+-keep public class * extends java.lang.annotation.Annotation {
+    <fields>;
+    <methods>;
+}
+
+-keep class com.android.tools.fd.** {
+    <fields>;
+    <methods>;
+}

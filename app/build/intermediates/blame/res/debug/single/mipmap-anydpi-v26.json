@@ -1,13 +1,5 @@
 [
     {
-        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26\\ic_launcher.xml",
-        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
-    },
-    {
-        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26\\ic_launcher_round.xml",
-        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26\\ic_launcher_round.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },

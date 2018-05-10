@@ -4,18 +4,6 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
-        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility_off.xml",
-        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility_off.xml"
-    },
-    {
-        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml",
-        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
-    },
-    {
-        "merged": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\design_ic_visibility.xml",
-        "source": "D:\\Android\\Android-Projects\\BinStore-master\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v21\\ic_launcher_background.xml"
     },

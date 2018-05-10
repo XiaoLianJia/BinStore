@@ -47,13 +47,16 @@ public class HomeFragment extends BaseFragment {
 
     /**
      * 初始化界面刷新布局
-     * @param v
+     * @param v v
      */
     private void initRefreshLayout(View v) {
 
-        RefreshLayout refreshLayout = (RefreshLayout) v.findViewById(R.id.smart_refresh_layout);
-        refreshLayout.setRefreshHeader(new ClassicsHeader(this.getActivity()));
-        refreshLayout.setRefreshFooter(new ClassicsFooter(this.getActivity()).setSpinnerStyle(SpinnerStyle.Scale));
+        RefreshLayout refreshLayout = v.findViewById(R.id.smart_refresh_layout);
+        if (this.getActivity() != null) {
+            refreshLayout.setRefreshHeader(new ClassicsHeader(this.getActivity()));
+            refreshLayout.setRefreshFooter(new ClassicsFooter(this.getActivity()).setSpinnerStyle(SpinnerStyle.Scale));
+        }
+
         refreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh(@NonNull RefreshLayout refreshlayout) {
@@ -71,14 +74,14 @@ public class HomeFragment extends BaseFragment {
 
     /**
      * 初始化图片轮播展位
-     * @param view
+     * @param view view
      * */
     private void initBanner(View view) {
 
         String[] urls = getResources().getStringArray(R.array.banner_url);
         List<?> images = new ArrayList<>(Arrays.asList(urls));
 
-        Banner banner = (Banner) view.findViewById(R.id.banner);
+        Banner banner = view.findViewById(R.id.banner);
         banner.setBannerStyle(BannerConfig.CIRCLE_INDICATOR);
         banner.setImageLoader(new GlideImageLoader());
         banner.setBannerAnimation(Transformer.Default);
@@ -92,7 +95,7 @@ public class HomeFragment extends BaseFragment {
 
     /**
      * 初始化商品类别视图
-     * @param view
+     * @param view view
      */
     private void initGridView(View view) {
 
@@ -105,7 +108,7 @@ public class HomeFragment extends BaseFragment {
         }
         gridIcons.recycle();
 
-        GridView gridView = (GridView) view.findViewById(R.id.grid_view);
+        GridView gridView = view.findViewById(R.id.grid_view);
         gridView.setAdapter(new CategoryGridViewAdapter(getActivity(), gridItemEntities));
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override

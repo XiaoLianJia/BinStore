@@ -100,7 +100,7 @@ public class GenericCategoryActivity extends BaseActivity {
      */
     private void initTabLayout() {
 
-        TabLayout tabLayout = (TabLayout) findViewById(R.id.tab_layout);
+        TabLayout tabLayout = findViewById(R.id.tab_layout);
         addTabItem(tabLayout, "综合", SHOW_ORDER_DEFAULT);
         addTabItem(tabLayout, "价格", SHOW_ORDER_PRICE);
         addTabItem(tabLayout, "销量", SHOW_ORDER_SALES);
@@ -149,9 +149,9 @@ public class GenericCategoryActivity extends BaseActivity {
     private void addTabItem(TabLayout tabLayout, String title, int type) {
 
         View view = LayoutInflater.from(this).inflate(R.layout.widget_tab_item, tabLayout, false);
-        TextView textView = (TextView) view.findViewById(R.id.text_view);
-        ImageView imageView1 = (ImageView) view.findViewById(R.id.image_view_1);
-        ImageView imageView2 = (ImageView) view.findViewById(R.id.image_view_2);
+        TextView textView = view.findViewById(R.id.text_view);
+        ImageView imageView1 = view.findViewById(R.id.image_view_1);
+        ImageView imageView2 = view.findViewById(R.id.image_view_2);
         textView.setText(title);
 
         switch (type) {
@@ -183,7 +183,7 @@ public class GenericCategoryActivity extends BaseActivity {
      */
     private void initRefreshLayout() {
 
-        RefreshLayout refreshLayout = (RefreshLayout) findViewById(R.id.smart_refresh_layout);
+        RefreshLayout refreshLayout = findViewById(R.id.smart_refresh_layout);
         refreshLayout.setRefreshHeader(new ClassicsHeader(this));
         refreshLayout.setRefreshFooter(new ClassicsFooter(this));
         refreshLayout.autoRefresh(0, 0, 2L);
@@ -209,8 +209,8 @@ public class GenericCategoryActivity extends BaseActivity {
      */
     private void initCommodityView(boolean showGridView) {
 
-        mListView = (ListView) findViewById(R.id.list_view);
-        mGridView = (GridView) findViewById(R.id.grid_view);
+        mListView = findViewById(R.id.list_view);
+        mGridView = findViewById(R.id.grid_view);
 
         if (showGridView) {
             mListView.setVisibility(GONE);

@@ -6,6 +6,7 @@ import android.os.Handler;
 import com.bincontrol.binstore.R;
 import com.bincontrol.binstore.util.SharedPreferencesUtils;
 
+import static com.bincontrol.binstore.common.AppConstant.SHARE_PREFERENCE_PARAM_FIRST_TIME_RUN;
 import static com.bincontrol.binstore.common.AppConstant.SPLASH_DISPLAY;
 
 public class SplashActivity extends BaseActivity {
@@ -18,9 +19,9 @@ public class SplashActivity extends BaseActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                boolean isAppFirstTimeRun = SharedPreferencesUtils.getBoolean(SplashActivity.this,"AppFirstTimeRun",true);
+                boolean isAppFirstTimeRun = SharedPreferencesUtils.getBoolean(SplashActivity.this, SHARE_PREFERENCE_PARAM_FIRST_TIME_RUN,true);
                 if (isAppFirstTimeRun) {
-                    SharedPreferencesUtils.putBoolean(SplashActivity.this,"AppFirstTimeRun", false);
+                    SharedPreferencesUtils.putBoolean(SplashActivity.this, SHARE_PREFERENCE_PARAM_FIRST_TIME_RUN, false);
                 }
                 openActivityWithoutAnim(MainActivity.class);
                 finish();
