@@ -13,7 +13,7 @@ import android.widget.TextView;
 import com.bincontrol.binstore.util.DensityUtils;
 import com.bincontrol.binstore.R;
 
-public class BinOptionLayout extends LinearLayout {
+public class CompoundOptionBar extends LinearLayout {
 
     // 最外层容器
     private LinearLayout linearLayoutContainer;
@@ -38,44 +38,44 @@ public class BinOptionLayout extends LinearLayout {
     private ImageView imageViewIconRight;
 
     // 整行点击事件
-    public static interface OnContainerClickListener {
+    public interface OnContainerClickListener {
         void onContainerClick(View view);
     }
 
     // 右边箭头的点击事件
-    public static interface OnArrowClickListener {
+    public interface OnArrowClickListener {
         void onArrowClick(View view);
     }
 
-    public BinOptionLayout(Context context) {
+    public CompoundOptionBar(Context context) {
         super(context);
     }
 
-    public BinOptionLayout(Context context, AttributeSet attrs) {
+    public CompoundOptionBar(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
 
     /**
      * 初始化各个控件
      */
-    public BinOptionLayout initView() {
+    public CompoundOptionBar initView() {
 
-        LayoutInflater.from(getContext()).inflate(R.layout.widget_option_layout, this, true);
-        linearLayoutContainer = (LinearLayout) findViewById(R.id.container);
+        LayoutInflater.from(getContext()).inflate(R.layout.widget_compound_option_bar, this, true);
+        linearLayoutContainer = findViewById(R.id.container);
         viewDividerLineTop = findViewById(R.id.divider_line_top);
         viewDividerLineBottom = findViewById(R.id.divider_line_bottom);
-        imageViewIconLeft = (ImageView) findViewById(R.id.icon_left);
-        textViewTextMiddle = (TextView) findViewById(R.id.text_middle);
-        editTextInput = (EditText) findViewById(R.id.edit_input);
-        textViewTextRight = (TextView) findViewById(R.id.text_right);
-        imageViewIconRight = (ImageView) findViewById(R.id.icon_right);
+        imageViewIconLeft = findViewById(R.id.icon_left);
+        textViewTextMiddle = findViewById(R.id.text_middle);
+        editTextInput = findViewById(R.id.edit_input);
+        textViewTextRight = findViewById(R.id.text_right);
+        imageViewIconRight = findViewById(R.id.icon_right);
         return this;
     }
 
     /**
      * 文字 + 箭头
      */
-    public BinOptionLayout init(String content) {
+    public CompoundOptionBar init(String content) {
         initView();
         showLeftIcon(false);
         setTextContent(content);
@@ -87,7 +87,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * icon + 文字 + 右箭头 + 下分割线
      */
-    public BinOptionLayout init(int iconRes, String content) {
+    public CompoundOptionBar init(int iconRes, String content) {
         initView();
         showDividerLine(false, true);
         setLeftIcon(iconRes);
@@ -101,7 +101,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * icon + 文字 + 右箭头（显示/不显示）+ 右箭头左边的文字（显示/不显示）+ 下分割线
      */
-    public BinOptionLayout initMine(int iconRes, String textContent, String textRight, boolean showArrow) {
+    public CompoundOptionBar initMine(int iconRes, String textContent, String textRight, boolean showArrow) {
         init(iconRes, textContent);
         setRightText(textRight);
         showArrow(showArrow);
@@ -112,7 +112,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * icon + 文字 + edit + 下分割线
      */
-    public BinOptionLayout initItemWithEdit(int iconRes, String textContent, String editHint) {
+    public CompoundOptionBar initItemWithEdit(int iconRes, String textContent, String editHint) {
         init(iconRes, textContent);
         showEdit(true);
         setEditHint(editHint);
@@ -125,7 +125,7 @@ public class BinOptionLayout extends LinearLayout {
      * 设置 container 的 paddingTop 与 paddingBottom ，从而控制整体的行高
      * paddingLeft 与 paddingRight 默认 20dp
      */
-    public BinOptionLayout setContainerPaddingTopBottom(int paddingTop, int paddingBottom) {
+    public CompoundOptionBar setContainerPaddingTopBottom(int paddingTop, int paddingBottom) {
         linearLayoutContainer.setPadding(
                 DensityUtils.dp2px(getContext(), 20),
                 DensityUtils.dp2px(getContext(), paddingTop),
@@ -138,7 +138,7 @@ public class BinOptionLayout extends LinearLayout {
      * 设置 container 的 paddingLeft 与 paddingRight ，从而控制整体的行高
      * paddingTop 与 paddingBottom 默认 15dp
      */
-    public BinOptionLayout setContainerPaddingLeftRight(int paddingLeft, int paddingRight) {
+    public CompoundOptionBar setContainerPaddingLeftRight(int paddingLeft, int paddingRight) {
         linearLayoutContainer.setPadding(
                 DensityUtils.dp2px(getContext(), paddingLeft),
                 DensityUtils.dp2px(getContext(), 15),
@@ -150,7 +150,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置上下分割线的显示情况
      */
-    public BinOptionLayout showDividerLine(Boolean showTop, Boolean showBottom) {
+    public CompoundOptionBar showDividerLine(Boolean showTop, Boolean showBottom) {
         viewDividerLineTop.setVisibility(showTop ? VISIBLE : GONE);
         viewDividerLineBottom.setVisibility(showBottom ? VISIBLE : GONE);
         return this;
@@ -159,7 +159,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置上分割线的颜色
      */
-    public BinOptionLayout setDividerLineTopColor(int colorRes) {
+    public CompoundOptionBar setDividerLineTopColor(int colorRes) {
         viewDividerLineTop.setBackgroundColor(getResources().getColor(colorRes));
         return this;
     }
@@ -167,7 +167,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置下分割线的颜色
      */
-    public BinOptionLayout setDividerLineBottomColor(int colorRes) {
+    public CompoundOptionBar setDividerLineBottomColor(int colorRes) {
         viewDividerLineBottom.setBackgroundColor(getResources().getColor(colorRes));
         return this;
     }
@@ -175,7 +175,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置上分割线的高度
      */
-    public BinOptionLayout setDividerLineTopHigiht(int higihtDp) {
+    public CompoundOptionBar setDividerLineTopHigiht(int higihtDp) {
         ViewGroup.LayoutParams layoutParams = viewDividerLineTop.getLayoutParams();
         layoutParams.height = DensityUtils.dp2px(getContext(), higihtDp);
         viewDividerLineTop.setLayoutParams(layoutParams);
@@ -185,7 +185,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置下分割线的高度
      */
-    public BinOptionLayout setDividerLineBottomHigiht(int higihtDp) {
+    public CompoundOptionBar setDividerLineBottomHigiht(int higihtDp) {
         ViewGroup.LayoutParams layoutParams = viewDividerLineBottom.getLayoutParams();
         layoutParams.height = DensityUtils.dp2px(getContext(), higihtDp);
         viewDividerLineBottom.setLayoutParams(layoutParams);
@@ -195,7 +195,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置左边Icon
      */
-    public BinOptionLayout setLeftIcon(int iconRes) {
+    public CompoundOptionBar setLeftIcon(int iconRes) {
         imageViewIconLeft.setImageResource(iconRes);
         return this;
     }
@@ -203,7 +203,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置左边Icon宽高
      */
-    public BinOptionLayout setLeftIconSize(int widthDp, int heightDp) {
+    public CompoundOptionBar setLeftIconSize(int widthDp, int heightDp) {
         ViewGroup.LayoutParams layoutParams = imageViewIconLeft.getLayoutParams();
         layoutParams.width = DensityUtils.dp2px(getContext(), widthDp);
         layoutParams.height = DensityUtils.dp2px(getContext(), heightDp);
@@ -214,7 +214,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置左边Icon显示与否
      */
-    public BinOptionLayout showLeftIcon(boolean show) {
+    public CompoundOptionBar showLeftIcon(boolean show) {
         imageViewIconLeft.setVisibility(show ? VISIBLE : GONE);
         return this;
     }
@@ -222,7 +222,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间文字的内容
      */
-    public BinOptionLayout setTextContent(String text) {
+    public CompoundOptionBar setTextContent(String text) {
         textViewTextMiddle.setText(text);
         return this;
     }
@@ -230,7 +230,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间文字的颜色
      */
-    public BinOptionLayout setTextContentColor(int colorRes) {
+    public CompoundOptionBar setTextContentColor(int colorRes) {
         textViewTextMiddle.setTextColor(getResources().getColor(colorRes));
         return this;
     }
@@ -238,7 +238,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间文字的大小
      */
-    public BinOptionLayout setTextContentSize(int sizeSp) {
+    public CompoundOptionBar setTextContentSize(int sizeSp) {
         textViewTextMiddle.setTextSize(sizeSp);
         return this;
     }
@@ -246,7 +246,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置右边文字的内容
      */
-    public BinOptionLayout setRightText(String text) {
+    public CompoundOptionBar setRightText(String text) {
         textViewTextRight.setText(text);
         return this;
     }
@@ -254,7 +254,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置右边文字的颜色
      */
-    public BinOptionLayout setRightTextColor(int colorRes) {
+    public CompoundOptionBar setRightTextColor(int colorRes) {
         textViewTextRight.setTextColor(getResources().getColor(colorRes));
         return this;
     }
@@ -262,7 +262,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置右边文字的大小
      */
-    public BinOptionLayout setRightTextSize(int sizeSp) {
+    public CompoundOptionBar setRightTextSize(int sizeSp) {
         textViewTextRight.setTextSize(sizeSp);
         return this;
     }
@@ -270,7 +270,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置右边Icon
      */
-    public BinOptionLayout setRightIcon(int iconRes) {
+    public CompoundOptionBar setRightIcon(int iconRes) {
         imageViewIconRight.setImageResource(iconRes);
         return this;
     }
@@ -285,7 +285,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置右边Icon显示与否
      */
-    public BinOptionLayout showArrow(boolean show) {
+    public CompoundOptionBar showArrow(boolean show) {
         imageViewIconRight.setVisibility(show ? VISIBLE : GONE);
         return this;
     }
@@ -293,7 +293,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框的hint内容
      */
-    public BinOptionLayout setEditHint(String hint) {
+    public CompoundOptionBar setEditHint(String hint) {
         editTextInput.setHint(hint);
         return this;
     }
@@ -301,7 +301,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框的内容
      */
-    public BinOptionLayout setEditContent(String content) {
+    public CompoundOptionBar setEditContent(String content) {
         editTextInput.setText(content);
         return this;
     }
@@ -309,7 +309,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框显示与否
      */
-    public BinOptionLayout showEdit(boolean show) {
+    public CompoundOptionBar showEdit(boolean show) {
         editTextInput.setVisibility(show ? VISIBLE : GONE);
         return this;
     }
@@ -317,7 +317,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框是否可输入
      */
-    public BinOptionLayout setEditFocusable(boolean focusable) {
+    public CompoundOptionBar setEditFocusable(boolean focusable) {
         editTextInput.setFocusable(focusable);
         return this;
     }
@@ -332,7 +332,7 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框的颜色
      */
-    public BinOptionLayout setEditColor(int colorRes) {
+    public CompoundOptionBar setEditColor(int colorRes) {
         editTextInput.setTextColor(getResources().getColor(colorRes));
         return this;
     }
@@ -340,13 +340,13 @@ public class BinOptionLayout extends LinearLayout {
     /**
      * 设置中间输入框字体大小
      */
-    public BinOptionLayout setEditSize(int sizeSp) {
+    public CompoundOptionBar setEditSize(int sizeSp) {
         editTextInput.setTextSize(sizeSp);
         return this;
     }
 
 
-    public BinOptionLayout setOnContainerClickListener(final OnContainerClickListener onContainerClickListener, final int tag) {
+    public CompoundOptionBar setOnContainerClickListener(final OnContainerClickListener onContainerClickListener, final int tag) {
         linearLayoutContainer.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -357,7 +357,7 @@ public class BinOptionLayout extends LinearLayout {
         return this;
     }
 
-    public BinOptionLayout setOnArrowClickListener(final OnArrowClickListener onArrowClickListener, final int tag) {
+    public CompoundOptionBar setOnArrowClickListener(final OnArrowClickListener onArrowClickListener, final int tag) {
 
         imageViewIconRight.setOnClickListener(new OnClickListener() {
             @Override

@@ -10,11 +10,15 @@ buildscript {
         maven {
             url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/"
         }
+        maven {
+            url "http://mvn.mob.com/android"
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.1.3'
         classpath 'com.github.dcendents:android-maven-gradle-plugin:1.5'
         classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.7.3'
+        classpath 'com.mob.sdk:MobSDK:+'
     }
 }
 
@@ -24,9 +28,6 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
             name 'Google'
-        }
-        maven {
-            url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/"
         }
     }
 }

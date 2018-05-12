@@ -18,6 +18,10 @@
     void attachBaseContext(android.content.Context);
 }
 
+-keep class com.bincontrol.binstore.ui.activity.BaseActivity {
+    <init>();
+}
+
 -keep class com.bincontrol.binstore.ui.activity.MainActivity {
     <init>();
 }
@@ -27,6 +31,10 @@
 }
 
 -keep class com.bincontrol.binstore.ui.activity.GenericCategoryActivity {
+    <init>();
+}
+
+-keep class com.bincontrol.binstore.ui.activity.UserActivity {
     <init>();
 }
 
@@ -103,6 +111,10 @@
 }
 
 -keep class mtopsdk.xstate.XStateService {
+    <init>();
+}
+
+-keep class com.mob.tools.MobUIShell {
     <init>();
 }
 

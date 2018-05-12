@@ -46,13 +46,13 @@ public final class R {
 		public static final int wshShadowRadius = 0x7f010249;
 	}
 	public static final class string {
-		public static final int fgh_mask_bottom = 0x7f080013;
-		public static final int fgh_mask_top_pull = 0x7f080014;
-		public static final int fgh_mask_top_release = 0x7f080015;
-		public static final int fgh_text_game_over = 0x7f080016;
-		public static final int fgh_text_loading = 0x7f080017;
-		public static final int fgh_text_loading_failed = 0x7f080018;
-		public static final int fgh_text_loading_finish = 0x7f080019;
+		public static final int fgh_mask_bottom = 0x7f0800d6;
+		public static final int fgh_mask_top_pull = 0x7f0800d7;
+		public static final int fgh_mask_top_release = 0x7f0800d8;
+		public static final int fgh_text_game_over = 0x7f0800d9;
+		public static final int fgh_text_loading = 0x7f0800da;
+		public static final int fgh_text_loading_failed = 0x7f0800db;
+		public static final int fgh_text_loading_finish = 0x7f0800dc;
 	}
 	public static final class styleable {
 		public static final int[] DropBoxHeader = { 0x7f010143, 0x7f010144, 0x7f010145 };

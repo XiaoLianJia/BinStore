@@ -51,7 +51,7 @@ import static android.view.View.GONE;
 import static com.bincontrol.binstore.BinStoreApplication.alibcShowParams;
 import static com.bincontrol.binstore.BinStoreApplication.alibcTaokeParams;
 import static com.bincontrol.binstore.common.AppConstant.REFRESH_DELAY;
-import static com.bincontrol.binstore.common.AppConstant.SERVER_URL_REMOTE;
+import static com.bincontrol.binstore.common.AppConstant.SERVER_URL_LOCAL;
 
 public class GenericCategoryActivity extends BaseActivity {
 
@@ -272,7 +272,7 @@ public class GenericCategoryActivity extends BaseActivity {
 
                 StringBuilder stringBuilder = new StringBuilder();
                 StringBuilder url = new StringBuilder();
-                url.append(SERVER_URL_REMOTE).append(category);
+                url.append(SERVER_URL_LOCAL).append(category);
                 try {
                     HttpClient httpClient = new DefaultHttpClient();
                     HttpGet httpGet = new HttpGet(url.toString());

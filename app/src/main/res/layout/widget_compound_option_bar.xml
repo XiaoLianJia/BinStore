@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/widget_option_layout"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -28,6 +27,7 @@
         <!-- item左边的icon -->
         <ImageView
             android:id="@+id/icon_left"
+            android:contentDescription="@string/compound_icon_left"
             android:layout_width="20dp"
             android:layout_height="20dp" />
 
@@ -36,6 +36,7 @@
             android:id="@+id/text_middle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
             android:layout_marginLeft="12dp"
             android:layout_weight="1"
             android:textSize="14sp" />
@@ -61,9 +62,13 @@
         <!-- item右边的icon -->
         <ImageView
             android:id="@+id/icon_right"
+            android:contentDescription="@string/compound_icon_right"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
+            android:paddingStart="10dp"
             android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp"
             android:src="@drawable/ic_chevron_right" />
     </LinearLayout>
 

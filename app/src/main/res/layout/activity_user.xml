@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- 帐号区域 -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
@@ -11,6 +12,7 @@
         android:layout_marginRight="32dp"
         android:layout_marginTop="120dp">
 
+        <!-- 帐号图标 -->
         <ImageView
             android:id="@+id/image_view_account"
             android:contentDescription="@string/login_account"
@@ -24,6 +26,7 @@
             android:background="@color/orange"
             android:src="@drawable/ic_login_account"/>
 
+        <!-- 帐号输入框 -->
         <EditText
             android:id="@+id/edit_text_account"
             android:layout_width="match_parent"
@@ -43,6 +46,7 @@
             android:textColorHint="#818181"
             android:textSize="14sp" />
 
+        <!-- 底部装饰线 -->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -54,12 +58,14 @@
             android:background="@color/orange"/>
     </RelativeLayout>
 
+    <!-- 密码区域 -->
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:layout_marginLeft="32dp"
         android:layout_marginRight="32dp">
 
+        <!-- 密码图标 -->
         <ImageView
             android:id="@+id/image_view_password"
             android:contentDescription="@string/login_password"
@@ -73,6 +79,7 @@
             android:background="@color/orange"
             android:src="@drawable/ic_login_password" />
 
+        <!-- 密码输入框 -->
         <EditText
             android:id="@+id/edit_text_password"
             android:layout_width="match_parent"
@@ -92,6 +99,7 @@
             android:textColorHint="#818181"
             android:textSize="14sp" />
 
+        <!-- 明码密码切换图标 -->
         <ImageView
             android:id="@+id/image_view_peek"
             android:contentDescription="@string/login_password_peek"
@@ -104,6 +112,7 @@
             android:background="@color/orange"
             android:src="@drawable/selector_peek" />
 
+        <!-- 底部装饰线 -->
         <View
             android:layout_width="match_parent"
             android:layout_height="1dp"
@@ -115,6 +124,7 @@
             android:background="@color/orange"/>
     </RelativeLayout>
 
+    <!-- 验证码区域 -->
     <RelativeLayout
         android:id="@+id/relative_layout_security_code"
         android:layout_width="match_parent"
@@ -123,6 +133,7 @@
         android:layout_marginRight="32dp"
         android:visibility="gone">
 
+        <!-- 验证码图标 -->
         <ImageView
             android:id="@+id/image_view_security_code"
             android:contentDescription="@string/login_security_code"
@@ -136,6 +147,7 @@
             android:background="@color/orange"
             android:src="@drawable/ic_login_security" />
 
+        <!-- 验证码按钮 -->
         <Button
             android:id="@+id/button_get_security_code"
             android:layout_width="80dp"
@@ -148,10 +160,12 @@
             android:paddingTop="8dp"
             android:paddingBottom="8dp"
             android:background="@drawable/selector_button"
+            android:enabled="false"
             android:text="@string/get_security_code"
             android:textColor="@android:color/white"
             android:textSize="12sp" />
 
+        <!-- 验证码输入框 -->
         <EditText
             android:id="@+id/edit_text_security_code"
             android:layout_width="wrap_content"
@@ -184,8 +198,9 @@
             android:background="@color/orange"/>
     </RelativeLayout>
 
+    <!-- 注册/登录按钮 -->
     <Button
-        android:id="@+id/button_login"
+        android:id="@+id/button_register_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="32dp"

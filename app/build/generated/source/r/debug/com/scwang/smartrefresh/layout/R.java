@@ -67,30 +67,30 @@ public final class R {
 		public static final int srlTextTimeMarginTop = 0x7f01011a;
 	}
 	public static final class id {
-		public static final int FixedBehind = 0x7f0f003c;
-		public static final int FixedFront = 0x7f0f003d;
-		public static final int MatchLayout = 0x7f0f003e;
-		public static final int Scale = 0x7f0f003f;
-		public static final int Translate = 0x7f0f0040;
+		public static final int FixedBehind = 0x7f0f0063;
+		public static final int FixedFront = 0x7f0f0064;
+		public static final int MatchLayout = 0x7f0f0065;
+		public static final int Scale = 0x7f0f0066;
+		public static final int Translate = 0x7f0f0067;
 	}
 	public static final class string {
-		public static final int srl_component_falsify = 0x7f08001a;
-		public static final int srl_content_empty = 0x7f08001b;
-		public static final int srl_footer_failed = 0x7f08001c;
-		public static final int srl_footer_finish = 0x7f08001d;
-		public static final int srl_footer_loading = 0x7f08001e;
-		public static final int srl_footer_nothing = 0x7f08001f;
-		public static final int srl_footer_pulling = 0x7f080020;
-		public static final int srl_footer_refreshing = 0x7f080021;
-		public static final int srl_footer_release = 0x7f080022;
-		public static final int srl_header_failed = 0x7f080023;
-		public static final int srl_header_finish = 0x7f080024;
-		public static final int srl_header_loading = 0x7f080025;
-		public static final int srl_header_pulling = 0x7f080026;
-		public static final int srl_header_refreshing = 0x7f080027;
-		public static final int srl_header_release = 0x7f080028;
-		public static final int srl_header_secondary = 0x7f080029;
-		public static final int srl_header_update = 0x7f08002a;
+		public static final int srl_component_falsify = 0x7f0800dd;
+		public static final int srl_content_empty = 0x7f0800de;
+		public static final int srl_footer_failed = 0x7f0800df;
+		public static final int srl_footer_finish = 0x7f0800e0;
+		public static final int srl_footer_loading = 0x7f0800e1;
+		public static final int srl_footer_nothing = 0x7f0800e2;
+		public static final int srl_footer_pulling = 0x7f0800e3;
+		public static final int srl_footer_refreshing = 0x7f0800e4;
+		public static final int srl_footer_release = 0x7f0800e5;
+		public static final int srl_header_failed = 0x7f0800e6;
+		public static final int srl_header_finish = 0x7f0800e7;
+		public static final int srl_header_loading = 0x7f0800e8;
+		public static final int srl_header_pulling = 0x7f0800e9;
+		public static final int srl_header_refreshing = 0x7f0800ea;
+		public static final int srl_header_release = 0x7f0800eb;
+		public static final int srl_header_secondary = 0x7f0800ec;
+		public static final int srl_header_update = 0x7f0800ed;
 	}
 	public static final class styleable {
 		public static final int[] BallPulseFooter = { 0x7f01003f, 0x7f0100f8, 0x7f0100f9 };

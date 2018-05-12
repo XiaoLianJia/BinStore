@@ -100,6 +100,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_option_layout.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_option_layout.xml"
     },
@@ -140,12 +144,20 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_avatar_picker_page.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_avatar_picker_page.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\27.1.1\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_avatar_page.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_avatar_page.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_commodity_item_grid.xml",
@@ -164,6 +176,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_titlebar.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_titlebar.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\fragment_search.xml"
     },
@@ -174,6 +190,10 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_personal_info.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_personal_info.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
@@ -296,6 +316,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\27.1.1\\res\\layout\\notification_media_cancel_action.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_popup_dialog.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_popup_dialog.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_register.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_login_register.xml"
     },
@@ -350,5 +374,9 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_avatar_picker_item.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_avatar_picker_item.xml"
     }
 ]

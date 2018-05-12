@@ -20,6 +20,12 @@ public class MainActivity extends BaseActivity {
     private ViewPager mViewPager;
     private MenuItem mMenuItem;
 
+    private static final int FRAGEMENT_HOME = 0;
+    private static final int FRAGEMENT_2 = 1;
+    private static final int FRAGEMENT_3 = 2;
+    private static final int FRAGEMENT_MINE = 3;
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -40,7 +46,7 @@ public class MainActivity extends BaseActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 switch (item.getItemId()) {
                     case R.id.navigation_home:
-                        mViewPager.setCurrentItem(0);
+                        mViewPager.setCurrentItem(FRAGEMENT_HOME);
                         return true;
                     case R.id.navigation_search:
                         mViewPager.setCurrentItem(1);
@@ -49,7 +55,7 @@ public class MainActivity extends BaseActivity {
                         mViewPager.setCurrentItem(2);
                         return true;
                     case R.id.navigation_mine:
-                        mViewPager.setCurrentItem(3);
+                        mViewPager.setCurrentItem(FRAGEMENT_MINE);
                         return true;
                 }
                 return false;

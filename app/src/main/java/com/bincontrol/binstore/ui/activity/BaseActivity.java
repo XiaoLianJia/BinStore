@@ -11,7 +11,8 @@ import com.bincontrol.binstore.common.AppManager;
 
 public class BaseActivity extends AppCompatActivity {
 
-    public static final String TAG = BaseActivity.class.getSimpleName();
+    private static final String TAG = BaseActivity.class.getSimpleName();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,8 +55,8 @@ public class BaseActivity extends AppCompatActivity {
 
     /**
      * 开启一个Activity，带动画效果
-     * @param mClass
-     * @param bundle
+     * @param mClass class
+     * @param bundle bundle
      */
     protected void openActivity(Class<?> mClass, Bundle bundle) {
         Intent intent = new Intent(this, mClass);
@@ -76,8 +77,8 @@ public class BaseActivity extends AppCompatActivity {
 
     /**
      * 开启一个Activity，无动画效果
-     * @param mClass
-     * @param bundle
+     * @param mClass class
+     * @param bundle bundle
      */
     protected void openActivityWithoutAnim(Class<?> mClass, Bundle bundle) {
         Intent intent = new Intent(this, mClass);
@@ -97,8 +98,8 @@ public class BaseActivity extends AppCompatActivity {
 
     /**
      * 开启一个Activity，带动画效果
-     * @param action
-     * @param bundle
+     * @param action action
+     * @param bundle bundle
      */
     protected void openActivity(String action, Bundle bundle) {
         Intent intent = new Intent(action);
@@ -119,8 +120,8 @@ public class BaseActivity extends AppCompatActivity {
 
     /**
      * 开启一个Activity，无动画效果
-     * @param action
-     * @param bundle
+     * @param action action
+     * @param bundle bundle
      */
     protected void openActivityWithoutAnim(String action, Bundle bundle) {
         Intent intent = new Intent(action);

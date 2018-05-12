@@ -24,7 +24,7 @@
     <string name="show_type_price">券后价</string>
     <string name="show_type_sales">销量</string>
 
-    <!-- LoginActivity & RegisterActivity -->
+    <!-- UserActivity -->
     <string name="edit_hint_account">请输入手机号</string>
     <string name="edit_hint_password">请输入密码</string>
     <string name="edit_hint_security">请输入验证码</string>
@@ -44,5 +44,7 @@
     <string name="login_password">密码图标</string>
     <string name="login_password_peek">密码显示或者隐藏图标</string>
     <string name="login_security_code">验证码图标</string>
+    <string name="compound_icon_left">复合选项条左侧图标</string>
+    <string name="compound_icon_right">复合选项条右侧图标</string>
 
 </resources>

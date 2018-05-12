@@ -2,9 +2,11 @@
     <init>();
     void attachBaseContext(android.content.Context);
 }
+-keep class com.bincontrol.binstore.ui.activity.BaseActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.MainActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.SplashActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.GenericCategoryActivity { <init>(); }
+-keep class com.bincontrol.binstore.ui.activity.UserActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.LoginActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.RegisterActivity { <init>(); }
 -keep class com.alibaba.alibclinkpartner.ui.ALPWebviewActivity { <init>(); }
@@ -24,6 +26,7 @@
 -keep class com.alipay.sdk.auth.AuthActivity { <init>(); }
 -keep class anetwork.channel.aidl.NetworkService { <init>(); }
 -keep class mtopsdk.xstate.XStateService { <init>(); }
+-keep class com.mob.tools.MobUIShell { <init>(); }
 -keep public class * extends android.app.backup.BackupAgent {
     <init>();
 }

@@ -125,6 +125,7 @@ com/facebook/common/references/OOMSoftReference.class
 com/facebook/imagepipeline/memory/Bucket.class
 android/support/design/widget/BaseTransientBottomBar$6.class
 org/apache/http/impl/client/DefaultRedirectStrategyAdaptor.class
+com/mob/tools/FakeActivity.class
 com/arlib/floatingsearchview/util/adapter/TextWatcherAdapter.class
 com/ali/auth/third/login/LoginService.class
 com/arlib/floatingsearchview/FloatingSearchView$OnSuggestionsListHeightChanged.class
@@ -155,6 +156,7 @@ android/support/v4/view/animation/FastOutSlowInInterpolator.class
 com/bincontrol/binstore/R.class
 android/support/design/widget/TabLayout.class
 android/support/v7/widget/ViewBoundsCheck.class
+com/mob/tools/log/NLog.class
 android/support/v4/app/BackStackState.class
 android/support/v4/view/ViewPager$4.class
 com/alipay/sdk/app/PayTask.class
@@ -190,6 +192,7 @@ android/support/v4/app/FragmentManagerImpl$AnimatorOnHWLayerIfNeededListener.cla
 android/support/v4/app/FragmentManagerImpl$StartEnterTransitionListener.class
 android/support/v4/view/accessibility/AccessibilityManagerCompat$AccessibilityStateChangeListenerCompat.class
 com/scwang/smartrefresh/layout/listener/OnStateChangedListener.class
+com/mob/tools/MobLog.class
 org/apache/http/impl/client/TunnelRefusedException.class
 com/facebook/imagepipeline/cache/MemoryCache.class
 android/support/v4/media/MediaBrowserCompatApi21$MediaItem.class
@@ -251,6 +254,7 @@ android/support/transition/ViewUtils.class
 android/support/design/widget/FloatingActionButton.class
 android/support/v4/view/NestedScrollingParentHelper.class
 com/alibaba/baichuan/trade/biz/context/AlibcTradeContext.class
+cn/smssdk/EventHandler.class
 android/support/v4/media/session/MediaControllerCompat.class
 android/support/v4/app/NotificationCompat$BigPictureStyle.class
 com/arlib/floatingsearchview/FloatingSearchView$DrawerListener.class
@@ -273,6 +277,7 @@ org/apache/http/impl/client/AbstractAuthenticationHandler.class
 android/support/annotation/ColorLong.class
 android/support/v4/media/session/MediaSessionCompat$ResultReceiverWrapper.class
 android/support/annotation/BoolRes.class
+com/bincontrol/binstore/ui/activity/UserActivity$4.class
 android/support/transition/PathMotion.class
 android/support/annotation/WorkerThread.class
 org/apache/http/conn/OperatedClientConnection.class
@@ -280,7 +285,6 @@ android/support/design/widget/SwipeDismissBehavior$SwipeDirection.class
 com/bincontrol/binstore/ui/activity/LoginActivity$1.class
 org/apache/http/cookie/CookieSpecRegistry.class
 org/apache/http/message/AbstractHttpMessage.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$5.class
 org/apache/http/protocol/HttpService$HttpRequestHandlerResolverAdapter.class
 com/alibaba/baichuan/android/trade/model/AlibcShowParams.class
 android/support/v4/provider/FontsContractCompat$FontRequestCallback.class
@@ -300,6 +304,7 @@ android/support/v4/view/VelocityTrackerCompat.class
 org/apache/http/util/ExceptionUtils.class
 android/support/design/widget/BaseTransientBottomBar$4.class
 org/apache/http/impl/AbstractHttpServerConnection.class
+com/mob/MobSDK.class
 android/support/transition/Transition$ArrayListManager.class
 com/bincontrol/binstore/ui/activity/SplashActivity.class
 com/alibaba/baichuan/trade/common/webview/AlibcWebChromeClient.class
@@ -312,6 +317,7 @@ android/support/v7/widget/StaggeredGridLayoutManager.class
 android/support/transition/Visibility$VisibilityInfo.class
 android/support/v4/view/ViewCompat$AccessibilityLiveRegion.class
 com/bumptech/glide/util/Util.class
+cn/smssdk/gui/layout/SendMsgDialogLayout.class
 org/apache/http/conn/ssl/SSLSocketFactory.class
 com/facebook/drawee/drawable/RoundedBitmapDrawable.class
 android/support/compat/R.class
@@ -358,6 +364,7 @@ android/support/v4/app/FragmentManagerImpl.class
 com/facebook/drawee/generic/WrappingUtils.class
 com/alibaba/baichuan/trade/common/AlibcMiniTradeCommon.class
 android/support/v7/widget/RecyclerView$ItemAnimator$ItemHolderInfo.class
+cn/smssdk/SMSSDK.class
 android/support/transition/Transition$EpicenterCallback.class
 android/support/v4/content/res/FontResourcesParserCompat.class
 com/alibaba/baichuan/android/trade/AlibcTradeSDK.class
@@ -436,8 +443,6 @@ android/support/v4/widget/Space.class
 com/alipay/sdk/app/i.class
 org/apache/http/impl/DefaultHttpClientConnection.class
 android/support/v4/content/WakefulBroadcastReceiver.class
-com/bincontrol/binstore/ui/activity/LoginActivity$2.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$4.class
 org/apache/http/impl/conn/tsccm/PoolEntryRequest.class
 android/support/v4/view/ViewCompat$ViewCompatApi16Impl.class
 android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
@@ -454,9 +459,11 @@ com/ali/auth/third/core/context/KernelContext.class
 org/apache/http/impl/conn/IdleConnectionHandler.class
 org/apache/http/impl/client/AbstractHttpClient.class
 android/support/v7/view/menu/MenuView.class
+com/mob/tools/proguard/PublicMemberKeeper.class
 org/apache/http/protocol/HttpResponseInterceptorList.class
 android/support/v4/view/ViewCompat$ScrollAxis.class
 com/bincontrol/binstore/ui/adapter/CommodityViewAdapter.class
+com/bincontrol/binstore/ui/activity/UserActivity$3.class
 android/support/v7/app/AppCompatDelegateImplV23.class
 android/support/v4/text/util/LinkifyCompat$1.class
 android/support/v7/app/AppCompatDelegateImplN.class
@@ -479,6 +486,7 @@ org/apache/http/client/HttpClient.class
 android/support/transition/TransitionUtils.class
 org/apache/http/impl/cookie/DateUtils.class
 android/support/v4/app/FragmentManagerImpl$1.class
+com/mob/tools/MobHandlerThread.class
 com/ali/auth/third/ui/webview/BaseWebViewActivity$1.class
 org/apache/http/impl/pool/BasicConnPool.class
 android/support/v7/widget/AdapterHelper$Callback.class
@@ -583,7 +591,6 @@ android/support/v4/widget/CircularProgressDrawable$1.class
 com/ali/auth/third/login/bridge/LoginBridge.class
 com/alipay/mobile/framework/service/annotation/ResetCookie.class
 com/facebook/imagepipeline/producers/NetworkFetchProducer.class
-com/bincontrol/binstore/ui/activity/LoginActivity$4.class
 com/arlib/floatingsearchview/FloatingSearchView$11.class
 com/bincontrol/binstore/ui/activity/GenericCategoryActivity$2.class
 android/support/v7/appcompat/R$layout.class
@@ -601,7 +608,6 @@ android/support/design/widget/BaseTransientBottomBar$OnAttachStateChangeListener
 android/support/annotation/IntDef.class
 com/bincontrol/binstore/ui/activity/GenericCategoryActivity.class
 org/apache/http/impl/conn/BasicClientConnectionManager.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$7.class
 android/support/v4/widget/TextViewCompat$TextViewCompatApi27Impl.class
 com/youth/banner/Banner.class
 org/apache/http/io/SessionInputBuffer.class
@@ -609,7 +615,6 @@ com/alipay/sdk/app/b.class
 android/support/annotation/LongDef.class
 com/scwang/smartrefresh/layout/internal/InternalClassics.class
 org/apache/http/protocol/HttpRequestHandlerRegistry.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$2.class
 android/support/design/widget/BottomNavigationView.class
 org/apache/http/impl/client/cache/CacheValidityPolicy.class
 android/support/v4/widget/ExploreByTouchHelper.class
@@ -631,6 +636,7 @@ org/apache/http/conn/params/ConnRoutePNames.class
 android/support/v4/view/ViewPropertyAnimatorListener.class
 com/alibaba/baichuan/android/trade/usertracker/monitor/c.class
 android/support/annotation/AnyRes.class
+com/bincontrol/binstore/ui/activity/UserActivity$1.class
 android/support/v4/app/FragmentManagerImpl$AnimateOnHWLayerIfNeededListener.class
 android/support/design/R$attr.class
 android/support/v4/widget/AutoSizeableTextView.class
@@ -783,6 +789,7 @@ android/support/annotation/StringRes.class
 android/support/design/widget/FloatingActionButtonLollipop.class
 org/apache/http/protocol/HTTP.class
 org/apache/http/cookie/CookieSpecFactory.class
+com/bincontrol/binstore/ui/activity/UserActivity$5.class
 android/support/v7/widget/AdapterHelper.class
 android/support/design/widget/SnackbarManager.class
 org/apache/http/params/HttpAbstractParamBean.class
@@ -796,7 +803,6 @@ android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 com/facebook/imagepipeline/producers/PostprocessorProducer$PostprocessorConsumer.class
 com/bincontrol/binstore/ui/activity/RegisterActivity$1.class
 android/support/v7/widget/ViewUtils.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$6.class
 com/alibaba/alibclinkpartner/c/b.class
 android/support/v4/media/MediaBrowserCompat.class
 android/support/design/widget/TabLayout$TabLayoutOnPageChangeListener.class
@@ -804,7 +810,6 @@ android/support/v4/media/session/PlaybackStateCompat$RepeatMode.class
 org/apache/http/conn/scheme/LayeredSocketFactory.class
 com/alibaba/alibclinkpartner/ui/ALPEntranceActivity.class
 android/support/v7/widget/RecyclerView$SmoothScroller.class
-com/bincontrol/binstore/ui/activity/LoginActivity$5.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
 android/support/v4/util/Preconditions.class
 com/alibaba/baichuan/android/trade/usertracker/monitor/a.class
@@ -838,6 +843,7 @@ android/support/v4/provider/FontsContractCompat$2.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserServiceCallbackImpl.class
 com/arlib/floatingsearchview/FloatingSearchView$OnSearchListener.class
 org/apache/http/impl/conn/tsccm/BasicPoolEntry.class
+com/mob/tools/proguard/ClassKeeper.class
 com/alibaba/baichuan/trade/common/adapter/ut/performance/AlibcDimensionValueSet.class
 com/bumptech/glide/load/DecodeFormat.class
 android/support/transition/VisibilityPropagation.class
@@ -870,6 +876,7 @@ android/support/v7/view/menu/CascadingMenuPopup$1.class
 android/support/annotation/IntegerRes.class
 com/facebook/imagepipeline/producers/MultiplexProducer$Multiplexer.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
+com/bincontrol/binstore/ui/activity/UserActivity.class
 android/support/v4/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry.class
 android/support/transition/Slide$6.class
 org/apache/http/conn/ssl/PrivateKeyDetails.class
@@ -963,11 +970,13 @@ org/apache/http/conn/ssl/SSLContexts.class
 android/support/v4/app/ActionBarDrawerToggle$DelegateProvider.class
 com/alibaba/fastjson/support/spring/FastJsonJsonView.class
 android/support/v7/widget/RecyclerView$OnScrollListener.class
+com/mob/tools/log/LogCollector.class
 com/ali/auth/third/ui/webview/BaseWebViewActivity$2.class
 android/support/v4/app/NotificationCompat$InboxStyle.class
 android/support/v4/util/SimpleArrayMap.class
 android/support/v4/text/util/LinkifyCompat$LinkifyMask.class
 android/support/transition/ViewGroupUtils.class
+com/mob/tools/utils/ResHelper.class
 org/apache/http/client/params/HttpClientParams.class
 android/support/v4/app/Fragment.class
 bolts/AggregateException.class
@@ -975,6 +984,7 @@ android/support/v4/content/SharedPreferencesCompat.class
 com/arlib/floatingsearchview/util/view/MenuView.class
 org/apache/http/client/params/ClientParamBean.class
 android/support/v4/widget/DrawerLayout$LockMode.class
+com/mob/tools/log/LogPrinter.class
 android/support/v4/app/NotificationCompat$DecoratedCustomViewStyle.class
 org/apache/http/client/utils/URIUtils.class
 android/support/design/widget/AppBarLayout$1.class
@@ -1015,6 +1025,7 @@ android/support/transition/ViewGroupOverlayImpl.class
 android/support/v4/util/ArrayMap.class
 android/support/v4/app/NotificationCompat$BadgeIconType.class
 org/apache/http/message/BasicHeaderValueFormatter.class
+com/mob/tools/log/NLog$1.class
 org/apache/http/client/protocol/ClientContext.class
 com/facebook/common/internal/Objects.class
 com/arlib/floatingsearchview/FloatingSearchView$20.class
@@ -1040,6 +1051,7 @@ com/facebook/cache/disk/SettableCacheEvent.class
 com/bumptech/glide/DrawableRequestBuilder.class
 android/support/annotation/StyleRes.class
 android/support/design/widget/FloatingActionButton$Behavior.class
+com/mob/tools/network/KVPair.class
 com/ali/auth/third/login/LoginComponent.class
 android/support/v4/media/MediaMetadataCompat$1.class
 android/support/v4/view/ViewCompat$ViewCompatApi24Impl.class
@@ -1091,6 +1103,7 @@ android/support/v4/app/SharedElementCallback.class
 com/bincontrol/binstore/ui/activity/MainActivity$2.class
 android/support/v4/media/session/MediaSessionCompat$Token.class
 android/support/v7/widget/RecyclerView$Orientation.class
+com/mob/tools/log/MobUncaughtExceptionHandler.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi23.class
 android/support/v4/util/ContainerHelpers.class
 com/facebook/cache/common/CacheEvent.class
@@ -1115,10 +1128,10 @@ android/support/v4/content/PermissionChecker.class
 android/support/v4/util/LongSparseArray.class
 android/support/annotation/AnimRes.class
 android/support/v4/app/FragmentActivity$NonConfigurationInstances.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$3.class
 android/support/v7/widget/RecyclerView$4.class
 org/apache/http/impl/client/DefaultProxyAuthenticationHandler.class
 android/support/v4/internal/view/SupportMenuItem.class
+com/mob/tools/MobUIShell.class
 org/apache/http/entity/AbstractHttpEntity.class
 android/support/v4/view/ViewPager$DecorView.class
 android/support/v4/media/AudioAttributesCompat$AttributeContentType.class
@@ -1237,6 +1250,7 @@ org/apache/http/conn/params/ConnRouteParams.class
 com/facebook/cache/disk/DefaultDiskStorage$FileInfo.class
 org/apache/http/client/protocol/RequestTargetAuthentication.class
 android/support/transition/Transition$3.class
+com/mob/tools/utils/ReflectHelper.class
 org/apache/http/impl/client/DecompressingHttpClient.class
 android/support/v4/media/session/PlaybackStateCompat$Actions.class
 android/support/v4/view/ViewCompat$ViewCompatApi21Impl$1.class
@@ -1267,6 +1281,7 @@ org/apache/http/impl/auth/NTLMEngineImpl$CipherGen.class
 android/support/design/widget/CoordinatorLayout.class
 android/support/v7/widget/RecyclerView$LayoutManager.class
 com/ali/auth/third/ui/webview/BaseWebViewClient.class
+com/bincontrol/binstore/ui/activity/UserActivity$2.class
 android/support/v7/widget/RecyclerView$ItemAnimator$AdapterChanges.class
 android/arch/core/internal/SafeIterableMap$ListIterator.class
 android/arch/core/internal/SafeIterableMap$Entry.class
@@ -1284,7 +1299,6 @@ com/alibaba/fastjson/parser/DefaultExtJSONParser.class
 android/support/v7/widget/RecyclerView$ItemAnimatorRestoreListener.class
 android/support/design/R$anim.class
 com/alipay/sdk/app/h.class
-com/bincontrol/binstore/ui/activity/RegisterActivity$8.class
 android/support/v7/view/menu/MenuBuilder.class
 android/support/v4/app/NotificationCompat$Style.class
 com/ali/auth/third/ui/QrLoginConfirmActivity.class
@@ -1312,7 +1326,6 @@ android/support/v4/widget/CircularProgressDrawable$2.class
 android/support/coreui/R$styleable.class
 android/support/v7/graphics/drawable/DrawerArrowDrawable.class
 android/support/v4/media/AudioAttributesCompatApi21$Wrapper.class
-com/bincontrol/binstore/ui/activity/LoginActivity$3.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi26.class
 android/support/v7/app/ActionBar$LayoutParams.class
 com/bumptech/glide/DrawableOptions.class

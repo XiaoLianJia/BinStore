@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-34:12
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml
@@ -32,8 +32,56 @@ MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinSt
 MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:8:5-75
+MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:15:5-75
+MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:16:5-75
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:8:22-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:12:5-81
+MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:14:5-81
+MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:17:5-81
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:5-79
+MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:13:5-79
+MERGED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:12:5-79
+MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:12:5-79
+MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.ali.auth.sdk\alibabauth_ui\1.4.3\AndroidManifest.xml:11:5-79
+MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:5-76
+MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:14:5-76
+MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:13:5-76
+MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.ali.auth.sdk\alibabauth_ui\1.4.3\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:15:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:22-73
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:12:5-70
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:12:22-67
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:5-79
+MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:8:5-32:19
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:5-39:19
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:13:5-14:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:24:5-27:19
 MERGED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:14:5-17:19
@@ -58,58 +106,73 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5] D:\GitRep
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshHeader\1.1.0-alpha-5\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:cardview-v7:25.3.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:12:9-41
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:20:9-35
 	android:allowBackup
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:10:9-36
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:9-36
+		REJECTED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:13:18-44
 		REJECTED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:25:9-36
 		REJECTED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:15:9-36
 	android:icon
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:11:9-43
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:18:9-43
 	android:theme
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:14:9-65
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:9-65
 	tools:replace
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:9-44
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:22:9-44
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:9:9-44
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:9-44
+activity#com.bincontrol.binstore.ui.activity.BaseActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:23:9-62
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:23:19-59
 activity#com.bincontrol.binstore.ui.activity.MainActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:9-62
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:24:9-62
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:16:19-59
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:24:19-59
 activity#com.bincontrol.binstore.ui.activity.SplashActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:9-18:20
-	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:17:19-61
-activity#com.bincontrol.binstore.ui.activity.GenericCategoryActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:9-22:60
-	android:parentActivityName
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:21:13-67
-	android:theme
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:22:13-57
-	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:20:13-64
-activity#com.bincontrol.binstore.ui.activity.LoginActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:23:9-24:20
-	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:23:19-60
-activity#com.bincontrol.binstore.ui.activity.RegisterActivity
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:25:9-31:20
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:25:19-63
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:25:19-61
+intent-filter#android.intent.action.MAIN+android.intent.action.VIEW+android.intent.category.LAUNCHER
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:26:13-30:29
 action#android.intent.action.MAIN
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:27:17-69
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:27:25-66
+action#android.intent.action.VIEW
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:28:17-69
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:27-74
+activity#com.bincontrol.binstore.ui.activity.GenericCategoryActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:32:9-35:60
+	android:parentActivityName
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:34:13-67
+	android:theme
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:35:13-57
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:33:13-64
+activity#com.bincontrol.binstore.ui.activity.UserActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:9-62
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:19-59
+activity#com.bincontrol.binstore.ui.activity.LoginActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:37:9-63
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:37:19-60
+activity#com.bincontrol.binstore.ui.activity.RegisterActivity
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:9-66
+	android:name
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:19-63
 uses-sdk
 INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
+MERGED from [cn.smssdk:SMSSDK:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\SMSSDK\3.1.1.1\AndroidManifest.xml:7:5-9:41
+MERGED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:8:5-11:45
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:appcompat-v7:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\AndroidManifest.xml:20:5-44
@@ -517,6 +580,8 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\AndroidManifest.xml:20:5-44
+	tools:overrideLibrary
+		ADDED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:11:9-42
 	android:targetSdkVersion
 		INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml
 		INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml
@@ -527,40 +592,6 @@ uses-permission#android.permission.READ_EXTERNAL_STORAGE
 ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:11:5-80
 	android:name
 		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:11:22-77
-uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:12:5-81
-MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:14:5-81
-MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:17:5-81
-	android:name
-		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:12:22-78
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:13:5-79
-MERGED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:12:5-79
-MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:12:5-79
-MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.ali.auth.sdk\alibabauth_ui\1.4.3\AndroidManifest.xml:11:5-79
-MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:14:5-79
-	android:name
-		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:13:22-76
-uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:14:5-76
-MERGED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:13:5-76
-MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.ali.auth.sdk\alibabauth_ui\1.4.3\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:15:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alimama.tunion.sdk\tuniontradesdk\0.3.2\AndroidManifest.xml:12:5-76
-	android:name
-		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:14:22-73
-uses-permission#android.permission.READ_PHONE_STATE
-ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:15:5-75
-MERGED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:16:5-75
-	android:name
-		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:15:22-72
 uses-permission#android.permission.WRITE_SETTINGS
 ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:16:5-73
 	android:name
@@ -569,10 +600,6 @@ uses-permission#android.permission.BLUETOOTH
 ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:18:5-68
 	android:name
 		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:18:22-65
-uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:19:5-79
-	android:name
-		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:19:22-76
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
 ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:20:5-81
 	android:name
@@ -587,7 +614,7 @@ MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app
 	android:name
 		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:22:22-65
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-34:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-41:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.CHANGE_CONFIGURATION
 ADDED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:15:5-79
 	android:name
@@ -715,10 +742,6 @@ ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\
 		ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:30:13-83
 intent-filter#android.intent.action.VIEW+android.intent.category.BROWSABLE+android.intent.category.DEFAULT
 ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:33:13-40:29
-action#android.intent.action.VIEW
-ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:34:17-69
-	android:name
-		ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:34:25-66
 category#android.intent.category.BROWSABLE
 ADDED from [com.alibaba.sdk.android:alibc_trade_sdk:3.1.1.206] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_trade_sdk\3.1.1.206\AndroidManifest.xml:37:17-78
 	android:name

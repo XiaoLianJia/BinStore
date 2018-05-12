@@ -1,144 +1,51 @@
 package com.bincontrol.binstore.ui.activity;
 
 import android.os.Bundle;
-import android.text.Editable;
-import android.text.InputType;
-import android.text.TextWatcher;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageView;
+import android.util.Log;
 
+import com.alibaba.fastjson.JSONObject;
 import com.bincontrol.binstore.R;
+import com.bincontrol.binstore.common.ServerErrorCode;
 import com.bincontrol.binstore.util.Base64Utils;
-import com.bincontrol.binstore.util.SharedPreferencesUtils;
+import com.bincontrol.binstore.util.HttpUtils;
 
-import static com.bincontrol.binstore.common.AppConstant.SHARE_PREFERENCE_PARAM_USER_ACCOUNT;
-import static com.bincontrol.binstore.common.AppConstant.SHARE_PREFERENCE_PARAM_USER_PASSWORD;
+import static com.bincontrol.binstore.common.AppConstant.SERVER_URL_USER_LOGIN;
 
-public class LoginActivity extends BaseActivity {
+public class LoginActivity extends UserActivity {
 
-    private EditText mEditTextAccount;
-    private EditText mEditTextPassword;
-    private Button mButtonLogin;
-
+    private static String TAG = LoginActivity.class.getName();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login_register);
-
-        initEditView();
-        initImageView();
-        initButton();
+        mButtonRegisterLogin.setText(R.string.login);
     }
 
-
-    private void initEditView() {
-
-        mEditTextAccount = findViewById(R.id.edit_text_account);
-        mEditTextAccount.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                checkLoginParams();
-            }
-        });
-
-        mEditTextPassword = findViewById(R.id.edit_text_password);
-        mEditTextPassword.addTextChangedListener(new TextWatcher() {
-            @Override
-            public void beforeTextChanged(CharSequence s, int start, int count, int after) {
-
-            }
-
-            @Override
-            public void onTextChanged(CharSequence s, int start, int before, int count) {
-
-            }
-
-            @Override
-            public void afterTextChanged(Editable s) {
-                checkLoginParams();
-            }
-        });
-    }
-
-
-    private void initImageView() {
-
-        ImageView imageViewPeek = findViewById(R.id.image_view_peek);
-        imageViewPeek.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                if (v.isSelected()) {
-                    v.setSelected(false);
-                    mEditTextPassword.setInputType(InputType.TYPE_CLASS_TEXT | InputType.TYPE_TEXT_VARIATION_PASSWORD);
-
-                } else {
-                    v.setSelected(true);
-                    mEditTextPassword.setInputType(InputType.TYPE_TEXT_VARIATION_VISIBLE_PASSWORD);
-                }
-            }
-        });
-    }
-
-
-    private void initButton() {
-
-        mButtonLogin = findViewById(R.id.button_login);
-        mButtonLogin.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-
-                String account = mEditTextAccount.getText().toString().trim();
-                String password = mEditTextPassword.getText().toString().trim();
-
-                if (!account.isEmpty() && !account.equals(getString(R.string.edit_hint_account))) {
-                    SharedPreferencesUtils.putString(LoginActivity.this, SHARE_PREFERENCE_PARAM_USER_ACCOUNT, account);
-                }
-                if (!password.isEmpty() && !password.equals(getString(R.string.edit_hint_password))) {
-                    password = Base64Utils.encryptBASE64(password);
-                    SharedPreferencesUtils.putString(LoginActivity.this, SHARE_PREFERENCE_PARAM_USER_PASSWORD, password);
-                }
-
-                login(account, password);
-            }
-        });
-    }
-
-
-    private void checkLoginParams() {
-
-        String account = mEditTextAccount.getText().toString().trim();
-        String password = mEditTextPassword.getText().toString().trim();
-
-        if (account.length() == 11 && password.length() >= 6 && password.length() <= 32) {
-            mButtonLogin.setEnabled(true);
-        } else {
-            mButtonLogin.setEnabled(false);
-        }
-    }
-
-
-    private void login(String account, String password) {
+    /**
+     * 注册
+     * @param account account
+     * @param password password
+     */
+    @Override
+    protected void login(final String account, final String password) {
 
         new Thread(new Runnable() {
             @Override
             public void run() {
 
-                mButtonLogin.setEnabled(false);
+                JSONObject jsonObject = new JSONObject();
+                jsonObject.put("account", account);
+                jsonObject.put("password", Base64Utils.encryptBASE64(password));
+                JSONObject jsonReturn = HttpUtils.post(SERVER_URL_USER_LOGIN, jsonObject);
 
-                mButtonLogin.setEnabled(true);
+                if (jsonReturn != null && jsonReturn.getInteger("status") == ServerErrorCode.BIN_OK.getCode()) {
+                    Log.d(TAG, "登录成功, [" + account + "]");
+                    openActivity(MainActivity.class);
+
+                } else {
+                    Log.d(TAG, "登录失败, [" + account + "]");
+                    Log.d(TAG, jsonReturn == null ? "ERROR: EMPTY RETURN" : jsonReturn.getString("msg"));
+                }
             }
         }).start();
     }
