@@ -32,6 +32,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnLoadMoreListener;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
+import com.stx.xhb.commontitlebar.CustomTitleBar;
 
 import org.apache.http.HttpResponse;
 import org.apache.http.client.HttpClient;
@@ -62,7 +63,7 @@ public class GenericCategoryActivity extends BaseActivity {
 
     private static final int HANDLER_MSG_GET_COMMODITY_FINISH = 0;
 
-    private String mCategoryTitle;
+    private String mCategoryTitle = null;
     private ListView mListView;
     private GridView mGridView;
     private boolean mShowGridView = false;
@@ -78,9 +79,9 @@ public class GenericCategoryActivity extends BaseActivity {
         Bundle bundle = getIntent().getExtras();
         if (bundle != null) {
             mCategoryTitle = bundle.getString("Title");
-            setTitle(mCategoryTitle);
         }
 
+        initTitleBar(mCategoryTitle);
         initTabLayout();
         initRefreshLayout();
         getCommodity(mCategoryTitle);
@@ -92,6 +93,22 @@ public class GenericCategoryActivity extends BaseActivity {
         AlibcTradeSDK.destory();
         mHandler.removeCallbacksAndMessages(null);
         super.onDestroy();
+    }
+
+
+    /**
+     * 初始化标题栏
+     */
+    private void initTitleBar(String title) {
+
+        CustomTitleBar customTitleBar = findViewById(R.id.custom_title_bar);
+        customTitleBar.setTitle(title == null ? "商品" : title);
+        customTitleBar.addLeftBackImageButton().setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
     }
 
 

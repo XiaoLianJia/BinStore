@@ -19,6 +19,12 @@
     <string name="category_item_09">鞋包</string>
     <string name="category_item_10">其它</string>
 
+    <!-- MineFragment -->
+    <string name="login_register">登录/注册</string>
+    <string name="option_announcement">官方公告</string>
+    <string name="option_feedback">意见反馈</string>
+    <string name="option_about">关于BinStore</string>
+
     <!-- GenericCategoryActivity -->
     <string name="show_type_default">综合</string>
     <string name="show_type_price">券后价</string>

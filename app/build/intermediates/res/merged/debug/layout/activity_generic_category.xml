@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 标题栏 -->
+    <com.stx.xhb.commontitlebar.CustomTitleBar
+        android:id="@+id/custom_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
 
     <!-- 排序选项栏 -->
     <android.support.design.widget.TabLayout

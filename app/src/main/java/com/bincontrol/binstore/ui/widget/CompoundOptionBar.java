@@ -16,37 +16,31 @@ import com.bincontrol.binstore.R;
 public class CompoundOptionBar extends LinearLayout {
 
     // 最外层容器
-    private LinearLayout linearLayoutContainer;
+    private LinearLayout mLinearLayoutContainer;
 
     // 上下分割线，默认隐藏上分割线
-    private View viewDividerLineTop;
-    private View viewDividerLineBottom;
+    private View mViewDividerLineTop;
+    private View mViewDividerLineBottom;
 
-    // 最左边的Icon
-    private ImageView imageViewIconLeft;
+    // 左侧图标
+    private ImageView mImageViewLeft;
 
-    // 中间的文字内容
-    private TextView textViewTextMiddle;
+    // 左侧的文字
+    private TextView mTextViewLeft;
 
     // 中间的输入框
-    private EditText editTextInput;
+    private EditText mEditText;
 
-    // 右边的文字
-    private TextView textViewTextRight;
+    // 右侧的文字
+    private TextView mTextViewRight;
 
-    // 右边的icon，通常是箭头
-    private ImageView imageViewIconRight;
+    // 右侧图标，通常是箭头
+    private ImageView mImageViewRight;
 
-    // 整行点击事件
-    public interface OnContainerClickListener {
-        void onContainerClick(View view);
-    }
 
-    // 右边箭头的点击事件
-    public interface OnArrowClickListener {
-        void onArrowClick(View view);
-    }
-
+    /**
+     * 构造器
+     */
     public CompoundOptionBar(Context context) {
         super(context);
     }
@@ -55,318 +49,268 @@ public class CompoundOptionBar extends LinearLayout {
         super(context, attrs);
     }
 
+    public CompoundOptionBar(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
+    }
+
+
     /**
      * 初始化各个控件
      */
-    public CompoundOptionBar initView() {
+    public void initView() {
 
         LayoutInflater.from(getContext()).inflate(R.layout.widget_compound_option_bar, this, true);
-        linearLayoutContainer = findViewById(R.id.container);
-        viewDividerLineTop = findViewById(R.id.divider_line_top);
-        viewDividerLineBottom = findViewById(R.id.divider_line_bottom);
-        imageViewIconLeft = findViewById(R.id.icon_left);
-        textViewTextMiddle = findViewById(R.id.text_middle);
-        editTextInput = findViewById(R.id.edit_input);
-        textViewTextRight = findViewById(R.id.text_right);
-        imageViewIconRight = findViewById(R.id.icon_right);
-        return this;
+        mLinearLayoutContainer = findViewById(R.id.container);
+        mViewDividerLineTop = findViewById(R.id.view_divider_line_top);
+        mViewDividerLineBottom = findViewById(R.id.view_divider_line_bottom);
+        mImageViewLeft = findViewById(R.id.image_view_left);
+        mTextViewLeft = findViewById(R.id.text_view_left);
+        mEditText = findViewById(R.id.edit_text);
+        mTextViewRight = findViewById(R.id.text_view_right);
+        mImageViewRight = findViewById(R.id.image_view_right);
     }
 
+
     /**
-     * 文字 + 箭头
+     * 初始化
      */
-    public CompoundOptionBar init(String content) {
+    public void init(int iconLeft, String textLeft, boolean showEditText,
+                     String textRight, int iconRight) {
         initView();
-        showLeftIcon(false);
-        setTextContent(content);
-        showEdit(false);
-        setRightText("");
-        return this;
-    }
-
-    /**
-     * icon + 文字 + 右箭头 + 下分割线
-     */
-    public CompoundOptionBar init(int iconRes, String content) {
-        initView();
-        showDividerLine(false, true);
-        setLeftIcon(iconRes);
-        setTextContent(content);
-        showEdit(false);
-        setRightText("");
-        showArrow(true);
-        return this;
-    }
-
-    /**
-     * icon + 文字 + 右箭头（显示/不显示）+ 右箭头左边的文字（显示/不显示）+ 下分割线
-     */
-    public CompoundOptionBar initMine(int iconRes, String textContent, String textRight, boolean showArrow) {
-        init(iconRes, textContent);
-        setRightText(textRight);
-        showArrow(showArrow);
-        return this;
+        setLeftIcon(iconLeft);
+        setLeftTextContent(textLeft);
+        showEditText(showEditText);
+        setRightTextContent(textRight);
+        setRightIcon(iconRight);
     }
 
 
     /**
-     * icon + 文字 + edit + 下分割线
+     * 设置container的padding
      */
-    public CompoundOptionBar initItemWithEdit(int iconRes, String textContent, String editHint) {
-        init(iconRes, textContent);
-        showEdit(true);
-        setEditHint(editHint);
-        showArrow(false);
-        return this;
-    }
-
-
-    /**
-     * 设置 container 的 paddingTop 与 paddingBottom ，从而控制整体的行高
-     * paddingLeft 与 paddingRight 默认 20dp
-     */
-    public CompoundOptionBar setContainerPaddingTopBottom(int paddingTop, int paddingBottom) {
-        linearLayoutContainer.setPadding(
-                DensityUtils.dp2px(getContext(), 20),
-                DensityUtils.dp2px(getContext(), paddingTop),
-                DensityUtils.dp2px(getContext(), 20),
-                DensityUtils.dp2px(getContext(), paddingBottom));
-        return this;
-    }
-
-    /**
-     * 设置 container 的 paddingLeft 与 paddingRight ，从而控制整体的行高
-     * paddingTop 与 paddingBottom 默认 15dp
-     */
-    public CompoundOptionBar setContainerPaddingLeftRight(int paddingLeft, int paddingRight) {
-        linearLayoutContainer.setPadding(
+    public void setContainerPadding(int paddingTop, int paddingBottom, int paddingLeft, int paddingRight) {
+        mLinearLayoutContainer.setPadding(
                 DensityUtils.dp2px(getContext(), paddingLeft),
-                DensityUtils.dp2px(getContext(), 15),
+                DensityUtils.dp2px(getContext(), paddingTop),
                 DensityUtils.dp2px(getContext(), paddingRight),
-                DensityUtils.dp2px(getContext(), 15));
-        return this;
+                DensityUtils.dp2px(getContext(), paddingBottom));
     }
 
+
     /**
-     * 设置上下分割线的显示情况
+     * 设置上下分割线的显示
      */
-    public CompoundOptionBar showDividerLine(Boolean showTop, Boolean showBottom) {
-        viewDividerLineTop.setVisibility(showTop ? VISIBLE : GONE);
-        viewDividerLineBottom.setVisibility(showBottom ? VISIBLE : GONE);
-        return this;
+    public void showDividerLine(Boolean showTop, Boolean showBottom) {
+        mViewDividerLineTop.setVisibility(showTop ? VISIBLE : GONE);
+        mViewDividerLineBottom.setVisibility(showBottom ? VISIBLE : GONE);
     }
 
     /**
      * 设置上分割线的颜色
      */
-    public CompoundOptionBar setDividerLineTopColor(int colorRes) {
-        viewDividerLineTop.setBackgroundColor(getResources().getColor(colorRes));
-        return this;
+    public void setDividerLineTopColor(int colorRes) {
+        mViewDividerLineTop.setBackgroundColor(getResources().getColor(colorRes));
     }
 
     /**
      * 设置下分割线的颜色
      */
-    public CompoundOptionBar setDividerLineBottomColor(int colorRes) {
-        viewDividerLineBottom.setBackgroundColor(getResources().getColor(colorRes));
-        return this;
+    public void setDividerLineBottomColor(int colorRes) {
+        mViewDividerLineBottom.setBackgroundColor(getResources().getColor(colorRes));
     }
 
     /**
      * 设置上分割线的高度
      */
-    public CompoundOptionBar setDividerLineTopHigiht(int higihtDp) {
-        ViewGroup.LayoutParams layoutParams = viewDividerLineTop.getLayoutParams();
+    public void setDividerLineTopHigiht(int higihtDp) {
+        ViewGroup.LayoutParams layoutParams = mViewDividerLineTop.getLayoutParams();
         layoutParams.height = DensityUtils.dp2px(getContext(), higihtDp);
-        viewDividerLineTop.setLayoutParams(layoutParams);
-        return this;
+        mViewDividerLineTop.setLayoutParams(layoutParams);
     }
 
     /**
      * 设置下分割线的高度
      */
-    public CompoundOptionBar setDividerLineBottomHigiht(int higihtDp) {
-        ViewGroup.LayoutParams layoutParams = viewDividerLineBottom.getLayoutParams();
+    public void setDividerLineBottomHigiht(int higihtDp) {
+        ViewGroup.LayoutParams layoutParams = mViewDividerLineBottom.getLayoutParams();
         layoutParams.height = DensityUtils.dp2px(getContext(), higihtDp);
-        viewDividerLineBottom.setLayoutParams(layoutParams);
-        return this;
+        mViewDividerLineBottom.setLayoutParams(layoutParams);
+    }
+
+
+    /**
+     * 设置左侧图标
+     */
+    public void setLeftIcon(int iconRes) {
+        mImageViewLeft.setImageResource(iconRes);
     }
 
     /**
-     * 设置左边Icon
+     * 设置左侧图标尺寸
      */
-    public CompoundOptionBar setLeftIcon(int iconRes) {
-        imageViewIconLeft.setImageResource(iconRes);
-        return this;
-    }
-
-    /**
-     * 设置左边Icon宽高
-     */
-    public CompoundOptionBar setLeftIconSize(int widthDp, int heightDp) {
-        ViewGroup.LayoutParams layoutParams = imageViewIconLeft.getLayoutParams();
+    public void setLeftIconSize(int widthDp, int heightDp) {
+        ViewGroup.LayoutParams layoutParams = mImageViewLeft.getLayoutParams();
         layoutParams.width = DensityUtils.dp2px(getContext(), widthDp);
         layoutParams.height = DensityUtils.dp2px(getContext(), heightDp);
-        imageViewIconLeft.setLayoutParams(layoutParams);
-        return this;
+        mImageViewLeft.setLayoutParams(layoutParams);
     }
 
     /**
-     * 设置左边Icon显示与否
+     * 设置左侧图标显示与否
      */
-    public CompoundOptionBar showLeftIcon(boolean show) {
-        imageViewIconLeft.setVisibility(show ? VISIBLE : GONE);
-        return this;
+    public void showLeftIcon(boolean show) {
+        mImageViewLeft.setVisibility(show ? VISIBLE : GONE);
     }
 
+
     /**
-     * 设置中间文字的内容
+     * 设置左侧文字的内容
      */
-    public CompoundOptionBar setTextContent(String text) {
-        textViewTextMiddle.setText(text);
-        return this;
+    public void setLeftTextContent(String text) {
+        mTextViewLeft.setText(text);
     }
 
     /**
-     * 设置中间文字的颜色
+     * 设置左侧文字的颜色
      */
-    public CompoundOptionBar setTextContentColor(int colorRes) {
-        textViewTextMiddle.setTextColor(getResources().getColor(colorRes));
-        return this;
+    public void setLeftTextColor(int colorRes) {
+        mTextViewLeft.setTextColor(getResources().getColor(colorRes));
     }
 
     /**
-     * 设置中间文字的大小
+     * 设置左侧文字的大小
      */
-    public CompoundOptionBar setTextContentSize(int sizeSp) {
-        textViewTextMiddle.setTextSize(sizeSp);
-        return this;
+    public void setLeftTextSize(int sizeSp) {
+        mTextViewLeft.setTextSize(sizeSp);
     }
 
+
     /**
-     * 设置右边文字的内容
+     * 设置右侧文字的内容
      */
-    public CompoundOptionBar setRightText(String text) {
-        textViewTextRight.setText(text);
-        return this;
+    public void setRightTextContent(String text) {
+        mTextViewRight.setText(text);
     }
 
     /**
-     * 设置右边文字的颜色
+     * 设置右侧文字的颜色
      */
-    public CompoundOptionBar setRightTextColor(int colorRes) {
-        textViewTextRight.setTextColor(getResources().getColor(colorRes));
-        return this;
+    public void setRightTextColor(int colorRes) {
+        mTextViewRight.setTextColor(getResources().getColor(colorRes));
     }
 
     /**
-     * 设置右边文字的大小
+     * 设置右侧文字的大小
      */
-    public CompoundOptionBar setRightTextSize(int sizeSp) {
-        textViewTextRight.setTextSize(sizeSp);
-        return this;
+    public void setRightTextSize(int sizeSp) {
+        mTextViewRight.setTextSize(sizeSp);
     }
 
     /**
-     * 设置右边Icon
+     * 设置右侧图标
      */
-    public CompoundOptionBar setRightIcon(int iconRes) {
-        imageViewIconRight.setImageResource(iconRes);
-        return this;
+    public void setRightIcon(int iconRes) {
+        mImageViewRight.setImageResource(iconRes);
     }
 
     /**
-     * 获取右边icon
+     * 获取右侧图标
      */
     public ImageView getRightIcon() {
-        return imageViewIconRight;
+        return mImageViewRight;
     }
 
     /**
-     * 设置右边Icon显示与否
+     * 设置右侧图标显示与否
      */
-    public CompoundOptionBar showArrow(boolean show) {
-        imageViewIconRight.setVisibility(show ? VISIBLE : GONE);
-        return this;
+    public void showRightIcon(boolean show) {
+        mImageViewRight.setVisibility(show ? VISIBLE : GONE);
     }
 
     /**
      * 设置中间输入框的hint内容
      */
-    public CompoundOptionBar setEditHint(String hint) {
-        editTextInput.setHint(hint);
-        return this;
+    public void setEditTextHint(String hint) {
+        mEditText.setHint(hint);
     }
 
     /**
      * 设置中间输入框的内容
      */
-    public CompoundOptionBar setEditContent(String content) {
-        editTextInput.setText(content);
-        return this;
+    public void setEditTextContent(String content) {
+        mEditText.setText(content);
     }
 
     /**
      * 设置中间输入框显示与否
      */
-    public CompoundOptionBar showEdit(boolean show) {
-        editTextInput.setVisibility(show ? VISIBLE : GONE);
-        return this;
+    public void showEditText(boolean show) {
+        mEditText.setVisibility(show ? VISIBLE : GONE);
     }
 
     /**
      * 设置中间输入框是否可输入
      */
-    public CompoundOptionBar setEditFocusable(boolean focusable) {
-        editTextInput.setFocusable(focusable);
-        return this;
+    public void setEditTextFocusable(boolean focusable) {
+        mEditText.setFocusable(focusable);
     }
 
     /**
      * 获取中间输入框输入的内容
      */
-    public String getEditContent() {
-        return String.valueOf(editTextInput.getText());
+    public String getEditTextContent() {
+        return String.valueOf(mEditText.getText());
     }
 
     /**
      * 设置中间输入框的颜色
      */
-    public CompoundOptionBar setEditColor(int colorRes) {
-        editTextInput.setTextColor(getResources().getColor(colorRes));
-        return this;
+    public void setEditTextColor(int colorRes) {
+        mEditText.setTextColor(getResources().getColor(colorRes));
     }
 
     /**
      * 设置中间输入框字体大小
      */
-    public CompoundOptionBar setEditSize(int sizeSp) {
-        editTextInput.setTextSize(sizeSp);
-        return this;
+    public void setEditTextSize(int sizeSp) {
+        mEditText.setTextSize(sizeSp);
     }
 
 
-    public CompoundOptionBar setOnContainerClickListener(final OnContainerClickListener onContainerClickListener, final int tag) {
-        linearLayoutContainer.setOnClickListener(new OnClickListener() {
+    /**
+     * 整体点击事件接口
+     * @param onContainerClickListener onContainerClickListener
+     */
+    public void setOnContainerClickListener(final OnContainerClickListener onContainerClickListener) {
+        mLinearLayoutContainer.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                linearLayoutContainer.setTag(tag);
-                onContainerClickListener.onContainerClick(linearLayoutContainer);
+                onContainerClickListener.onContainerClick(mLinearLayoutContainer);
             }
         });
-        return this;
     }
 
-    public CompoundOptionBar setOnArrowClickListener(final OnArrowClickListener onArrowClickListener, final int tag) {
+    public interface OnContainerClickListener {
+        void onContainerClick(View view);
+    }
 
-        imageViewIconRight.setOnClickListener(new OnClickListener() {
+
+    /**
+     * 右侧图标（箭头）点击事件接口
+     * @param onArrowClickListener onArrowClickListener
+     */
+    public void setOnArrowClickListener(final OnArrowClickListener onArrowClickListener) {
+
+        mImageViewRight.setOnClickListener(new OnClickListener() {
             @Override
             public void onClick(View v) {
-                imageViewIconRight.setTag(tag);
-                onArrowClickListener.onArrowClick(imageViewIconLeft);
+                onArrowClickListener.onArrowClick(mImageViewRight);
             }
         });
-        return this;
+    }
+
+    public interface OnArrowClickListener {
+        void onArrowClick(View view);
     }
 
 }

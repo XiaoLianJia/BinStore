@@ -1,1 +1,1 @@
-include ':app',':banner',':searchview'
+include ':app',':banner',':searchview',':commontitlebar'

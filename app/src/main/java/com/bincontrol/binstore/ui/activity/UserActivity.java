@@ -9,8 +9,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.bincontrol.binstore.R;
+import com.stx.xhb.commontitlebar.CustomTitleBar;
 
 import cn.smssdk.EventHandler;
 import cn.smssdk.SMSSDK;
@@ -23,11 +25,12 @@ public class UserActivity extends BaseActivity implements View.OnClickListener {
     private static final int EDIT_TYPE_PASSWORD = 2;
     private static final int EDIT_TYPE_SECURITY_CODE = 3;
 
-    private EditText mEditTextAccount;
-    private EditText mEditTextPassword;
-    private EditText mEditTextSecurityCode;
-    private Button mButtonGetSecurityCode;
+    protected EditText mEditTextAccount;
+    protected EditText mEditTextPassword;
+    protected EditText mEditTextSecurityCode;
+    protected Button mButtonGetSecurityCode;
     protected Button mButtonRegisterLogin;
+    protected CustomTitleBar mCustomTitleBar;
 
     private boolean mIsValidAccount = false;
     private boolean mIsValidPassword = false;
@@ -38,6 +41,8 @@ public class UserActivity extends BaseActivity implements View.OnClickListener {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user);
+
+        mCustomTitleBar = findViewById(R.id.custom_title_bar);
 
         mEditTextAccount = findViewById(R.id.edit_text_account);
         mEditTextPassword = findViewById(R.id.edit_text_password);
@@ -55,6 +60,19 @@ public class UserActivity extends BaseActivity implements View.OnClickListener {
         setTextWatcher();
     }
 
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        SMSSDK.unregisterAllEventHandler();
+    }
+
+
+    /**
+     * 初始化标题栏
+     * @param title title
+     */
+    protected void initTitleBar(String title) { }
 
     /**
      * 设置文本输入框监听
@@ -191,6 +209,8 @@ public class UserActivity extends BaseActivity implements View.OnClickListener {
 
                 } else{
                     Log.d(TAG, "验证码发送失败，[" + phoneNumber + "]");
+                    Toast.makeText(getApplicationContext(), "验证码发送失败", Toast.LENGTH_LONG).show();
+
                 }
             }
         });
@@ -214,17 +234,12 @@ public class UserActivity extends BaseActivity implements View.OnClickListener {
 
                 } else{
                     Log.d(TAG, "验证码校验失败，[" + phoneNumber + "]");
+
                 }
             }
         });
 
         SMSSDK.submitVerificationCode("86", phoneNumber, code);
-    }
-
-
-    protected void onDestroy() {
-        super.onDestroy();
-        SMSSDK.unregisterAllEventHandler();
     }
 
 }

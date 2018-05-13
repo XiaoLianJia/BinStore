@@ -88,6 +88,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_compound_option_bar.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_compound_option_bar.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
@@ -102,10 +106,6 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_user.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_option_layout.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_option_layout.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overflow_action_item_layout.xml",

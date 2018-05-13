@@ -63,7 +63,7 @@ dependencies {
     compile 'com.android.support:design:27.1.1'
     compile 'com.android.support:support-v4:27.1.1'
     /**
-     *    阿里SDK
+     * 阿里SDK
      */
     compile 'com.alibaba:fastjson:1.2.9'
     compile 'com.taobao.android:securityguardaar3:5.1.81@aar'
@@ -88,25 +88,26 @@ dependencies {
     compile files('libs/aliyun-java-sdk-core-3.3.1.jar')
     compile files('libs/aliyun-java-sdk-dysmsapi-1.0.0.jar')
     /**
-     *    下拉刷新、上滑加载布局
+     * 下拉刷新、上滑加载布局：https://github.com/scwang90/SmartRefreshLayout
      */
     compile 'com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5'
     compile 'com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5'
     /**
-     *    图片展播组件
+     * 图片展播组件：https://github.com/youth5201314/banner
      */
     compile project(':banner')
     /**
-     *    搜索页面
+     * 搜索页面：https://github.com/arimorty/floatingsearchview
      */
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.facebook.fresco:fresco:0.12.0'
     compile project(':searchview')
     /**
-     *    BASE64Decoder
+     * 标题栏：https://github.com/xiaohaibin/CustomTitleBar
+     */
+    compile project(':commontitlebar')
+    /**
+     * BASE64Decoder
      */
     compile files('libs/sun.misc.BASE64Decoder.jar')
-    /**
-     * Mob
-     */
 }

@@ -4,6 +4,12 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- 标题栏 -->
+    <com.stx.xhb.commontitlebar.CustomTitleBar
+        android:id="@+id/custom_title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="56dp" />
+
     <!-- 帐号区域 -->
     <RelativeLayout
         android:layout_width="match_parent"

@@ -29,13 +29,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <!-- 商品相关 -->
         <activity
             android:name=".ui.activity.GenericCategoryActivity"
             android:parentActivityName=".ui.activity.MainActivity"
-            android:theme="@style/Theme.AppCompat.Light" />
-        <activity android:name=".ui.activity.UserActivity" />
-        <activity android:name=".ui.activity.LoginActivity" />
-        <activity android:name=".ui.activity.RegisterActivity" />
+            android:theme="@style/CustomTitleBarTheme" />
+        <!-- 用户相关 -->
+        <activity android:name=".ui.activity.UserActivity"
+            android:theme="@style/CustomTitleBarTheme" />
+        <activity android:name=".ui.activity.LoginActivity"
+            android:theme="@style/CustomTitleBarTheme" />
+        <activity android:name=".ui.activity.RegisterActivity"
+            android:theme="@style/CustomTitleBarTheme" />
     </application>
 
 </manifest>

@@ -8,4 +8,19 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <!-- CustomTitleBar theme. -->
+    <style name="CustomTitleBarTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="config_color_divider">@color/divider</item>
+        <item name="CustomTitleBarStyle">@style/CustomTitleBar</item>
+    </style>
+
+    <!-- CustomTitleBar: https://github.com/xiaohaibin/CustomTitleBar -->
+    <style name="CustomTitleBar" parent="CustomTitleBar.TopBar">
+        <item name="titlebar_bg_color">@color/orange</item>
+        <item name="titlebar_title_text_size">18sp</item>
+        <item name="titlebar_title_color">@color/white</item>
+        <item name="titlebar_subtitle_color">@color/config_color_white</item>
+        <item name="titlebar_text_btn_color_state_list">@color/blue</item>
+        <item name="titlebar_image_btn_height">48dp</item>
+    </style>
 </resources>

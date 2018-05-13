@@ -64,6 +64,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\BinStore\\searchview\\unspecified\\res\\drawable-xhdpi-v4\\ic_arrow_back_black_24dp.png"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_titlebar_back.png",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.xhb\\commontitlebar\\2.1.0\\res\\drawable-xhdpi-v4\\icon_titlebar_back.png"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-41:12
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:4:5-38
 		INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml
@@ -80,7 +80,7 @@ MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinSt
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:13:22-76
 application
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:5-39:19
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:15:5-44:19
 MERGED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:13:5-14:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support.constraint\constraint-layout\1.1.0\AndroidManifest.xml:9:5-20
 MERGED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:24:5-27:19
@@ -105,6 +105,7 @@ MERGED from [com.alimama.tunion.sdk:tuniontradesdk:0.3.2] D:\GitRepository\BinSt
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.1.0-alpha-5] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshLayout\1.1.0-alpha-5\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshHeader:1.1.0-alpha-5] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.scwang.smartrefresh\SmartRefreshHeader\1.1.0-alpha-5\AndroidManifest.xml:11:5-15:19
 MERGED from [com.android.support:cardview-v7:25.3.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\25.3.1\AndroidManifest.xml:26:5-20
+MERGED from [com.xhb:commontitlebar:2.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.xhb\commontitlebar\2.1.0\AndroidManifest.xml:9:5-12:38
 	android:label
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:19:9-41
 	android:supportsRtl
@@ -114,6 +115,7 @@ MERGED from [com.android.support:cardview-v7:25.3.1] D:\GitRepository\BinStore\a
 		REJECTED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:13:18-44
 		REJECTED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:25:9-36
 		REJECTED from [com.taobao.android:securitybodyaar3:5.1.25] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securitybodyaar3\5.1.25\AndroidManifest.xml:15:9-36
+		REJECTED from [com.xhb:commontitlebar:2.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.xhb\commontitlebar\2.1.0\AndroidManifest.xml:10:9-35
 	android:icon
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:18:9-43
 	android:theme
@@ -149,25 +151,31 @@ ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:27-74
 activity#com.bincontrol.binstore.ui.activity.GenericCategoryActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:32:9-35:60
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:33:9-36:58
 	android:parentActivityName
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:34:13-67
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:35:13-67
 	android:theme
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:35:13-57
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:13-55
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:33:13-64
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:34:13-64
 activity#com.bincontrol.binstore.ui.activity.UserActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:9-62
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:9-39:58
+	android:theme
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:39:13-55
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:19-59
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:19-59
 activity#com.bincontrol.binstore.ui.activity.LoginActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:37:9-63
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:40:9-41:58
+	android:theme
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:41:13-55
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:37:19-60
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:40:19-60
 activity#com.bincontrol.binstore.ui.activity.RegisterActivity
-ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:9-66
+ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:42:9-43:58
+	android:theme
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:43:13-55
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:19-63
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:42:19-63
 uses-sdk
 INJECTED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\multidex\1.0.1\AndroidManifest.xml:18:5-42
@@ -580,6 +588,39 @@ MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.xhb:commontitlebar:2.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.xhb\commontitlebar\2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:appcompat-v7:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-fragment\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\livedata-core\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.core\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\viewmodel\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.android.support\support-compat\27.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\android.arch.lifecycle\runtime\1.1.0\AndroidManifest.xml:20:5-44
 	tools:overrideLibrary
 		ADDED from [cn.smssdk:ShortMessageSDKGUI:3.1.1.1] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\cn.smssdk\ShortMessageSDKGUI\3.1.1.1\AndroidManifest.xml:11:9-42
 	android:targetSdkVersion
@@ -614,7 +655,7 @@ MERGED from [com.ali.auth.sdk:alibabauth_ui:1.4.3] D:\GitRepository\BinStore\app
 	android:name
 		ADDED from [com.taobao.android:securityguardaar3:5.1.81] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.taobao.android\securityguardaar3\5.1.81\AndroidManifest.xml:22:22-65
 android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
-IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-41:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
+IMPLIED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:2:1-46:12 reason: com.alibaba.wireless.security requested WRITE_EXTERNAL_STORAGE
 uses-permission#android.permission.CHANGE_CONFIGURATION
 ADDED from [com.alibaba.sdk.android:alibc_link_partner:1.1.0.0] D:\GitRepository\BinStore\app\build\intermediates\exploded-aar\com.alibaba.sdk.android\alibc_link_partner\1.1.0.0\AndroidManifest.xml:15:5-79
 	android:name

@@ -21,8 +21,8 @@ public final class R {
 		public static final int com_taobao_tae_sdk_web_view_title_bar_close = 0x7f02005f;
 	}
 	public static final class id {
-		public static final int ali_auth_qrview = 0x7f0f00f5;
-		public static final int ali_auth_webview = 0x7f0f00f6;
+		public static final int ali_auth_qrview = 0x7f0f00fa;
+		public static final int ali_auth_webview = 0x7f0f00fb;
 	}
 	public static final class layout {
 		public static final int ali_auth_qrview = 0x7f040022;
@@ -76,7 +76,8 @@ public final class R {
 		public static final int com_taobao_tae_sdk_system_exception = 0x7f080161;
 	}
 	public static final class style {
-		public static final int AppTheme = 0x7f0b0099;
-		public static final int ali_auth_qr_activity_style = 0x7f0b0181;
+		public static final int AppBaseTheme = 0x7f0b00a3;
+		public static final int AppTheme = 0x7f0b00a6;
+		public static final int ali_auth_qr_activity_style = 0x7f0b019b;
 	}
 }

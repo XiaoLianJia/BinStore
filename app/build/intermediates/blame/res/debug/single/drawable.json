@@ -32,6 +32,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_bg.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_back_black.png",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.xhb\\commontitlebar\\2.1.0\\res\\drawable\\icon_back_black.png"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
@@ -238,6 +242,10 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_trans_divider.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.xhb\\commontitlebar\\2.1.0\\res\\drawable\\selector_trans_divider.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_conners_edittext_bg.xml",

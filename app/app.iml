@@ -79,6 +79,10 @@
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/bundles" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/classes" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/dependency-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.core/runtime/1.1.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/livedata-core/1.1.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.1.0/jars" />
+      <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/android.arch.lifecycle/viewmodel/1.1.0/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/cn.smssdk/SMSSDK/3.1.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/cn.smssdk/ShortMessageSDKGUI/3.1.1.1/jars" />
       <excludeFolder url="file://$MODULE_DIR$/build/intermediates/exploded-aar/com.ali.auth.sdk/alibabauth_ui/1.4.3/jars" />
@@ -196,6 +200,7 @@
     <orderEntry type="library" exported="" name="Gradle: android.arch.core:common:1.1.0@jar" level="project" />
     <orderEntry type="library" exported="" name="Gradle: com.alibaba:fastjson:1.2.9@jar" level="project" />
     <orderEntry type="module" module-name="searchview" exported="" />
+    <orderEntry type="module" module-name="commontitlebar" exported="" />
     <orderEntry type="module" module-name="banner" exported="" />
   </component>
 </module>

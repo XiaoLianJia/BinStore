@@ -4,18 +4,32 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:gravity="center"
+        android:background="@color/orange">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_button"
+            android:text="@string/login_register" />
+    </RelativeLayout>
+
     <com.bincontrol.binstore.ui.widget.CompoundOptionBar
-        android:id="@+id/line_view_login"
+        android:id="@+id/compound_option_bar_announcement"
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <com.bincontrol.binstore.ui.widget.CompoundOptionBar
+        android:id="@+id/compound_option_bar_feedback"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
     <com.bincontrol.binstore.ui.widget.CompoundOptionBar
-        android:id="@+id/line_view_order"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
-    <com.bincontrol.binstore.ui.widget.CompoundOptionBar
-        android:id="@+id/line_view_setting"
+        android:id="@+id/compound_option_bar_about"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
