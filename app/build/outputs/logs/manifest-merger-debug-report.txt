@@ -150,14 +150,14 @@ category#android.intent.category.LAUNCHER
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:17-77
 	android:name
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:29:27-74
-activity#com.bincontrol.binstore.ui.activity.GenericCategoryActivity
+activity#com.bincontrol.binstore.ui.activity.CommodityActivity
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:33:9-36:58
 	android:parentActivityName
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:35:13-67
 	android:theme
 		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:36:13-55
 	android:name
-		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:34:13-64
+		ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:34:13-58
 activity#com.bincontrol.binstore.ui.activity.UserActivity
 ADDED from D:\GitRepository\BinStore\app\src\main\AndroidManifest.xml:38:9-39:58
 	android:theme

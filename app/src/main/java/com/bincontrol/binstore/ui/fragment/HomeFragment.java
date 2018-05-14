@@ -4,6 +4,7 @@ package com.bincontrol.binstore.ui.fragment;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,9 +12,9 @@ import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.bincontrol.binstore.R;
-import com.bincontrol.binstore.entity.CategoryGridItemEntity;
+import com.bincontrol.binstore.entity.CategoryItemEntity;
 import com.bincontrol.binstore.loader.GlideImageLoader;
-import com.bincontrol.binstore.ui.activity.GenericCategoryActivity;
+import com.bincontrol.binstore.ui.activity.CommodityActivity;
 import com.bincontrol.binstore.ui.adapter.CategoryGridViewAdapter;
 import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.constant.SpinnerStyle;
@@ -34,6 +35,9 @@ import static com.bincontrol.binstore.common.AppConstant.REFRESH_DELAY;
 
 public class HomeFragment extends BaseFragment {
 
+    private static final String TAG = HomeFragment.class.getName();
+
+
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
@@ -47,11 +51,11 @@ public class HomeFragment extends BaseFragment {
 
     /**
      * 初始化界面刷新布局
-     * @param v v
+     * @param view view
      */
-    private void initRefreshLayout(View v) {
+    private void initRefreshLayout(View view) {
 
-        RefreshLayout refreshLayout = v.findViewById(R.id.smart_refresh_layout);
+        RefreshLayout refreshLayout = view.findViewById(R.id.smart_refresh_layout);
         if (this.getActivity() != null) {
             refreshLayout.setRefreshHeader(new ClassicsHeader(this.getActivity()));
             refreshLayout.setRefreshFooter(new ClassicsFooter(this.getActivity()).setSpinnerStyle(SpinnerStyle.Scale));
@@ -60,12 +64,14 @@ public class HomeFragment extends BaseFragment {
         refreshLayout.setOnRefreshListener(new OnRefreshListener() {
             @Override
             public void onRefresh(@NonNull RefreshLayout refreshlayout) {
+                Log.i(TAG, "下拉刷新");
                 refreshlayout.finishRefresh(REFRESH_DELAY);
             }
         });
         refreshLayout.setOnLoadMoreListener(new OnLoadMoreListener() {
             @Override
             public void onLoadMore(@NonNull RefreshLayout refreshlayout) {
+                Log.i(TAG, "上拉加载");
                 refreshlayout.finishLoadMore(REFRESH_DELAY);
             }
         });
@@ -75,7 +81,7 @@ public class HomeFragment extends BaseFragment {
     /**
      * 初始化图片轮播展位
      * @param view view
-     * */
+     */
     private void initBanner(View view) {
 
         String[] urls = getResources().getStringArray(R.array.banner_url);
@@ -102,9 +108,9 @@ public class HomeFragment extends BaseFragment {
         final String[] gridTitles = getResources().getStringArray(R.array.categories_titles);
         TypedArray gridIcons = getResources().obtainTypedArray(R.array.categories_icons);
 
-        final List<CategoryGridItemEntity> gridItemEntities = new ArrayList<>();
+        final List<CategoryItemEntity> gridItemEntities = new ArrayList<>();
         for (int i = 0; i < gridTitles.length; i++) {
-            gridItemEntities.add(new CategoryGridItemEntity(gridIcons.getResourceId(i, 0), gridTitles[i]));
+            gridItemEntities.add(new CategoryItemEntity(gridIcons.getResourceId(i, 0), gridTitles[i]));
         }
         gridIcons.recycle();
 
@@ -113,10 +119,11 @@ public class HomeFragment extends BaseFragment {
         gridView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                // Grid Item 点击事件
+
+                Log.i(TAG, "查看[" + gridItemEntities.get(position).getTitle() + "]类目商品");
                 Bundle bundle = new Bundle();
-                bundle.putString("Title", gridItemEntities.get(position).getGridItemTitle());
-                openActivity(GenericCategoryActivity.class, bundle);
+                bundle.putString("Title", gridItemEntities.get(position).getTitle());
+                openActivity(CommodityActivity.class, bundle);
             }
         });
     }

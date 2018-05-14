@@ -5,7 +5,7 @@
 -keep class com.bincontrol.binstore.ui.activity.BaseActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.MainActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.SplashActivity { <init>(); }
--keep class com.bincontrol.binstore.ui.activity.GenericCategoryActivity { <init>(); }
+-keep class com.bincontrol.binstore.ui.activity.CommodityActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.UserActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.LoginActivity { <init>(); }
 -keep class com.bincontrol.binstore.ui.activity.RegisterActivity { <init>(); }

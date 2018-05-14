@@ -19,7 +19,7 @@
         android:id="@+id/view_pager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_above="@+id/bottom_navigation_view" />
+        android:layout_above="@id/bottom_navigation_view" />
 
     <!-- 主页面与底部导航栏之间分界线 -->
     <View

@@ -30,7 +30,7 @@
     <init>();
 }
 
--keep class com.bincontrol.binstore.ui.activity.GenericCategoryActivity {
+-keep class com.bincontrol.binstore.ui.activity.CommodityActivity {
     <init>();
 }
 

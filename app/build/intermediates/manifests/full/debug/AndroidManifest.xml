@@ -27,7 +27,7 @@
         <category android:name="android.intent.category.LAUNCHER"/>
       </intent-filter>
     </activity>
-    <activity android:parentActivityName="com.bincontrol.binstore.ui.activity.MainActivity" android:name="com.bincontrol.binstore.ui.activity.GenericCategoryActivity" android:theme="@style/CustomTitleBarTheme"/>
+    <activity android:parentActivityName="com.bincontrol.binstore.ui.activity.MainActivity" android:name="com.bincontrol.binstore.ui.activity.CommodityActivity" android:theme="@style/CustomTitleBarTheme"/>
     <activity android:name="com.bincontrol.binstore.ui.activity.UserActivity" android:theme="@style/CustomTitleBarTheme"/>
     <activity android:name="com.bincontrol.binstore.ui.activity.LoginActivity" android:theme="@style/CustomTitleBarTheme"/>
     <activity android:name="com.bincontrol.binstore.ui.activity.RegisterActivity" android:theme="@style/CustomTitleBarTheme"/>

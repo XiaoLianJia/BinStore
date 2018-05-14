@@ -12,6 +12,8 @@ import com.bincontrol.binstore.util.Base64Utils;
 import com.bincontrol.binstore.util.HttpUtils;
 import com.bincontrol.binstore.util.SharedPreferencesUtils;
 
+import static com.bincontrol.binstore.common.AppConstant.REQUEST_PARAM_ACCOUNT;
+import static com.bincontrol.binstore.common.AppConstant.REQUEST_PARAM_PASSWORD;
 import static com.bincontrol.binstore.common.AppConstant.SERVER_URL_USER_REGISTER;
 import static com.bincontrol.binstore.common.AppConstant.SHARE_PREFERENCE_PARAM_USER_ACCOUNT;
 import static com.bincontrol.binstore.common.AppConstant.SHARE_PREFERENCE_PARAM_USER_PASSWORD;
@@ -60,8 +62,8 @@ public class RegisterActivity extends UserActivity {
             public void run() {
 
                 JSONObject jsonObject = new JSONObject();
-                jsonObject.put("account", account);
-                jsonObject.put("password", Base64Utils.encryptBASE64(password));
+                jsonObject.put(REQUEST_PARAM_ACCOUNT, account);
+                jsonObject.put(REQUEST_PARAM_PASSWORD, Base64Utils.encryptBASE64(password));
                 JSONObject jsonReturn = HttpUtils.post(SERVER_URL_USER_REGISTER, jsonObject);
 
                 if (jsonReturn != null && jsonReturn.getInteger("status") == ServerErrorCode.BIN_OK.getCode()) {

@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2" xmlns:ns2="http://schemas.android.com/tools">
-    <array name="banner_url">
+    <array name="banner_url"><!-- HomeFragment -->
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>
-        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item><!--
+        <item>http://localhost:8080/images/banner/banner_01.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_02.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_03.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_04.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_05.jpg</item>-->
     </array>
-    <array name="categories_icons">
+    <array name="categories_icons"><!-- HomeFragment -->
         <item>@drawable/ic_category_item_01</item>
         <item>@drawable/ic_category_item_02</item>
         <item>@drawable/ic_category_item_03</item>
@@ -19,7 +24,7 @@
         <item>@drawable/ic_category_item_09</item>
         <item>@drawable/ic_category_item_10</item>
     </array>
-    <array name="categories_titles">
+    <array name="categories_titles"><!-- HomeFragment -->
         <item>@string/category_item_01</item>
         <item>@string/category_item_02</item>
         <item>@string/category_item_03</item>
@@ -31,13 +36,13 @@
         <item>@string/category_item_09</item>
         <item>@string/category_item_10</item>
     </array>
-    <array name="commodity_show_types_image">
-        <item>@drawable/ic_arrow_drop_down</item>
-        <item>@drawable/ic_arrow_drop_up</item>
-        <item>@drawable/ic_arrow_drop_up</item>
-        <item>@drawable/ic_tab_grid</item>
+    <array name="commodity_show_types_image"><!-- CommodityActivity -->
+        <item>@drawable/ic_arrow_down</item>
+        <item>@drawable/ic_arrow_up</item>
+        <item>@drawable/ic_arrow_up</item>
+        <item>@drawable/ic_view_grid</item>
     </array>
-    <array name="commodity_show_types_text">
+    <array name="commodity_show_types_text"><!-- CommodityActivity -->
         <item>@string/show_type_default</item>
         <item>@string/show_type_price</item>
         <item>@string/show_type_sales</item>
@@ -583,6 +588,7 @@
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="orange">#FF9900</color>
     <color name="overflow_icon_color">#787878</color>
+    <color name="pink">#FF4081</color>
     <color name="pressed_color">#E7E7E7</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -624,6 +630,7 @@
     <color name="tab_normal">#C5C9D0</color>
     <color name="tab_selected">#FB773B</color>
     <color name="tab_unchecked">#757575</color>
+    <color name="text">#333333</color>
     <color name="tooltip_background_dark">#e6616161</color>
     <color name="tooltip_background_light">#e6FFFFFF</color>
     <color name="transparent">#00000000</color>
@@ -949,6 +956,7 @@
     <item name="title" type="id"/>
     <item name="titleView" type="id"/>
     <item name="title_bar_image_left" type="id"/>
+    <item name="title_bar_image_right" type="id"/>
     <item name="title_bar_text_right" type="id"/>
     <item name="titlebar_item_left_back" type="id"/>
     <item name="transition_current_scene" type="id"/>
@@ -1065,7 +1073,7 @@
     <string name="aliusersdk_session_error">亲，你的操作已超时，请重试</string>
     <string name="app_name">BinStore</string>
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
-    <string name="ascending_order_image">升序图标-正三角</string>
+    <string name="ascending_order_image">升序图标</string>
     <string name="auth_sdk_message_10003_action"/>
     <string name="auth_sdk_message_10003_message">用户取消登录或登录失败</string>
     <string name="auth_sdk_message_10003_name">USER_CANCEL</string>
@@ -1098,13 +1106,13 @@
     <string name="category_item_01">女装</string>
     <string name="category_item_02">母婴</string>
     <string name="category_item_03">美妆</string>
-    <string name="category_item_04">家居</string>
+    <string name="category_item_04">鞋包</string>
     <string name="category_item_05">内衣</string>
     <string name="category_item_06">男装</string>
     <string name="category_item_07">美食</string>
     <string name="category_item_08">数码</string>
-    <string name="category_item_09">鞋包</string>
-    <string name="category_item_10">其它</string>
+    <string name="category_item_09">家居</string>
+    <string name="category_item_10">配饰</string>
     <string name="category_item_image">商品类别图标</string>
     <string name="character_counter_pattern" translatable="false">%1$d / %2$d</string>
     <string name="com_taobao_nb_sdk_loading_progress_message">加载中</string>
@@ -1122,7 +1130,9 @@
     <string name="commodity_picture">商品图片</string>
     <string name="compound_icon_left">复合选项条左侧图标</string>
     <string name="compound_icon_right">复合选项条右侧图标</string>
-    <string name="descending_order_image">降序图标-倒三角</string>
+    <string name="descending_order_image">降序图标</string>
+    <string name="drop_down_image">展开图标</string>
+    <string name="drop_up_image">收起图标</string>
     <string name="edit_hint_account">请输入手机号</string>
     <string name="edit_hint_password">请输入密码</string>
     <string name="edit_hint_security">请输入验证码</string>
@@ -1143,10 +1153,8 @@
     <string name="login_password_peek">密码显示或者隐藏图标</string>
     <string name="login_register">登录/注册</string>
     <string name="login_security_code">验证码图标</string>
-    <string name="navigation_agency">赚钱</string>
     <string name="navigation_home">首页</string>
     <string name="navigation_mine">我的</string>
-    <string name="navigation_search">搜索</string>
     <string name="option_about">关于BinStore</string>
     <string name="option_announcement">官方公告</string>
     <string name="option_feedback">意见反馈</string>
@@ -1374,6 +1382,7 @@
     <string name="srl_header_secondary">Release To Second Floor</string>
     <string name="srl_header_update">\'Last Update\' M-d HH:mm</string>
     <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="title_default">商品</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
     <style name="Animation.AppCompat.Dialog" parent="Base.Animation.AppCompat.Dialog"/>
@@ -2503,12 +2512,12 @@
         <item name="android:windowNoTitle">true</item>
     </style>
     <style name="CustomTitleBar" parent="CustomTitleBar.TopBar">
-        <item name="titlebar_bg_color">@color/orange</item>
+        <item name="titlebar_bg_color">@color/white</item>
         <item name="titlebar_title_text_size">18sp</item>
-        <item name="titlebar_title_color">@color/white</item>
-        <item name="titlebar_subtitle_color">@color/config_color_white</item>
+        <item name="titlebar_title_color">@color/text</item>
+        <item name="titlebar_subtitle_color">@color/text</item>
         <item name="titlebar_text_btn_color_state_list">@color/blue</item>
-        <item name="titlebar_image_btn_height">48dp</item>
+        <item name="titlebar_image_btn_height">36dp</item>
     </style>
     <style name="CustomTitleBar.Compat" parent="AppConfigTheme.Compat">
 

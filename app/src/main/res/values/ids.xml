@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <item name="title_bar_image_left" type="id" />
     <item name="title_bar_text_right" type="id" />
+    <item name="title_bar_image_left" type="id" />
+    <item name="title_bar_image_right" type="id" />
 </resources>

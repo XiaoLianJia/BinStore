@@ -16,12 +16,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_up.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\drawable\\smssdk_country_group_scroll_up.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\com_alibaba_bc_auth_cancle_btn.xml",
@@ -52,12 +52,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\tooltip_frame_dark.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_category_item_04.png",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\ic_category_item_04.png"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_country_group_scroll_down.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\drawable\\smssdk_country_group_scroll_down.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_category_item_04.png",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\ic_category_item_04.png"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
@@ -156,12 +156,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\drawable\\smssdk_btn_disenable.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_bg_low.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_dialog_btn_back.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\drawable\\smssdk_dialog_btn_back.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\drawable\\notification_bg_low.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\suggestion_item_background.xml",
@@ -212,12 +212,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_category_item_07.png",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\ic_category_item_07.png"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\smssdk_corners_bg.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\drawable\\smssdk_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\ic_category_item_07.png",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\drawable\\ic_category_item_07.png"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape_shadow.xml",

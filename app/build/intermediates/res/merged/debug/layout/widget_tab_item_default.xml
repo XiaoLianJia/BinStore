@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+    <!-- 选项名称 -->
+    <TextView
+        android:id="@+id/text_view_default"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:gravity="end" />
+
+    <!-- 复合图标布局 -->
+    <FrameLayout
+        android:layout_width="17dp"
+        android:layout_height="12dp"
+        android:layout_toEndOf="@id/text_view_default"
+        android:layout_toRightOf="@id/text_view_default"
+        android:layout_centerVertical="true"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:gravity="start">
+
+        <!-- 收起 -->
+        <ImageView
+            android:id="@+id/image_view_drop_up"
+            android:contentDescription="@string/drop_up_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_up"
+            android:visibility="gone" />
+
+        <!-- 展开 -->
+        <ImageView
+            android:id="@+id/image_view_drop_down"
+            android:contentDescription="@string/drop_down_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_arrow_down" />
+    </FrameLayout>
+</RelativeLayout>

@@ -100,12 +100,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\27.1.1\\res\\layout\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_user.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_user.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\overflow_action_item_layout.xml",
@@ -152,12 +152,12 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-compat\\27.1.1\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\27.1.1\\res\\layout\\notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_avatar_page.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_avatar_page.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\support-media-compat\\27.1.1\\res\\layout\\notification_template_big_media_custom.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_commodity_item_grid.xml",
@@ -168,24 +168,16 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_titlebar.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_titlebar.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_search_view.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\smssdk_titlebar.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_titlebar.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_search.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\fragment_search.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_tab_item.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_tab_item.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
@@ -200,6 +192,10 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_category_item.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_category_item.xml"
+    },
+    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
@@ -210,6 +206,10 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\com_alibc_auth_actiivty.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.alibaba.sdk.android\\alibc_trade_sdk\\3.1.1.206\\res\\layout\\com_alibc_auth_actiivty.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_commodity.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_commodity.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
@@ -232,10 +232,6 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\BinStore\\searchview\\unspecified\\res\\layout\\search_suggestions_section.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_generic_category.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_generic_category.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\action_item_layout.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\BinStore\\searchview\\unspecified\\res\\layout\\action_item_layout.xml"
     },
@@ -252,10 +248,6 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_category_item_grid.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_category_item_grid.xml"
-    },
-    {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_menu_item_action_area.xml"
     },
@@ -266,10 +258,6 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_tooltip.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_tooltip.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_agency.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\fragment_agency.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -286,6 +274,10 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_tab_item_view.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_tab_item_view.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alibc_link_webview.xml",
@@ -320,12 +312,16 @@
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\cn.smssdk\\ShortMessageSDKGUI\\3.1.1.1\\res\\layout\\smssdk_popup_dialog.xml"
     },
     {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login_register.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\activity_login_register.xml"
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_tab_item_default.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_tab_item_default.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\27.1.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_tab_item_sort.xml",
+        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_tab_item_sort.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
@@ -350,10 +346,6 @@
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
         "source": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\27.1.1\\res\\layout\\design_layout_snackbar.xml"
-    },
-    {
-        "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_search_bar.xml",
-        "source": "D:\\GitRepository\\BinStore\\app\\src\\main\\res\\layout\\widget_search_bar.xml"
     },
     {
         "merged": "D:\\GitRepository\\BinStore\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",

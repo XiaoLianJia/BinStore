@@ -66,11 +66,11 @@ public class CommodityViewAdapter extends BaseAdapter {
                     : R.layout.widget_commodity_item_list, parent, false);
 
             viewHolder = new CommodityViewHolder();
-            viewHolder.ivPicture = (ImageView) convertView.findViewById(R.id.image_view_picture);
-            viewHolder.tvTitle = (TextView) convertView.findViewById(R.id.text_view_title);
-            viewHolder.tvOriginalPrice = (TextView) convertView.findViewById(R.id.text_view_original_price);
-            viewHolder.tvCouponPrice = (TextView) convertView.findViewById(R.id.text_view_coupon_price);
-            viewHolder.tvSalesVolume = (TextView) convertView.findViewById(R.id.text_view_volume);
+            viewHolder.ivPicture = convertView.findViewById(R.id.image_view_picture);
+            viewHolder.tvTitle = convertView.findViewById(R.id.text_view_title);
+            viewHolder.tvOriginalPrice = convertView.findViewById(R.id.text_view_original_price);
+            viewHolder.tvCouponPrice = convertView.findViewById(R.id.text_view_coupon_price);
+            viewHolder.tvSalesVolume = convertView.findViewById(R.id.text_view_volume);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (CommodityViewHolder) convertView.getTag();

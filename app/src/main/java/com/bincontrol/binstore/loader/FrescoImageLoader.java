@@ -17,8 +17,7 @@ public class FrescoImageLoader extends ImageLoader {
 
     @Override
     public ImageView createImageView(Context context) {
-        SimpleDraweeView simpleDraweeView = new SimpleDraweeView(context);
-        return simpleDraweeView;
+        return new SimpleDraweeView(context);
     }
 
 }

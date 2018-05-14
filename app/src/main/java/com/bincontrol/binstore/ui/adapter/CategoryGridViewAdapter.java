@@ -9,14 +9,14 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.bincontrol.binstore.R;
-import com.bincontrol.binstore.entity.CategoryGridItemEntity;
+import com.bincontrol.binstore.entity.CategoryItemEntity;
 
 import java.util.List;
 
 public class CategoryGridViewAdapter extends BaseAdapter {
 
     private Context mContext;
-    private List<CategoryGridItemEntity> mGridItems;
+    private List<CategoryItemEntity> mGridItems;
 
     private static class CategoryGridViewHolder {
         ImageView imageView;
@@ -24,7 +24,7 @@ public class CategoryGridViewAdapter extends BaseAdapter {
     }
 
 
-    public CategoryGridViewAdapter(Context context, List<CategoryGridItemEntity> gridItems) {
+    public CategoryGridViewAdapter(Context context, List<CategoryItemEntity> gridItems) {
         mContext = context;
         mGridItems = gridItems;
     }
@@ -49,17 +49,17 @@ public class CategoryGridViewAdapter extends BaseAdapter {
 
         CategoryGridViewHolder viewHolder;
         if (convertView == null) {
-            convertView = LayoutInflater.from(mContext).inflate(R.layout.widget_category_item_grid, parent, false);
+            convertView = LayoutInflater.from(mContext).inflate(R.layout.widget_category_item, parent, false);
             viewHolder = new CategoryGridViewHolder();
-            viewHolder.imageView = (ImageView) convertView.findViewById(R.id.image_view);
-            viewHolder.textView = (TextView) convertView.findViewById(R.id.text_view);
+            viewHolder.imageView = convertView.findViewById(R.id.image_view);
+            viewHolder.textView = convertView.findViewById(R.id.text_view);
             convertView.setTag(viewHolder);
         } else {
             viewHolder = (CategoryGridViewHolder) convertView.getTag();
         }
 
-        viewHolder.imageView.setImageResource(mGridItems.get(position).getGridItemIcon());
-        viewHolder.textView.setText(mGridItems.get(position).getGridItemTitle());
+        viewHolder.imageView.setImageResource(mGridItems.get(position).getIcon());
+        viewHolder.textView.setText(mGridItems.get(position).getTitle());
         return convertView;
     }
 

@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="reference" name="CustomTitleBarStyle"/>
+    <attr format="float" name="alpha_disabled"/>
+    <attr format="float" name="alpha_pressed"/>
+    <attr format="color" name="config_color_background"/>
+    <attr format="color" name="config_color_background_pressed"/>
+    <attr format="color" name="config_color_black"/>
+    <attr format="color" name="config_color_blue"/>
+    <attr format="color" name="config_color_divider"/>
+    <attr format="color" name="config_color_divider_darken"/>
+    <attr format="color" name="config_color_gray_1"/>
+    <attr format="color" name="config_color_gray_4"/>
+    <attr format="color" name="config_color_pressed"/>
+    <attr format="color" name="config_color_red"/>
+    <attr format="dimension" name="titlebar_height"/>
+    <color name="config_color_50_blue">#801B88EE</color>
+    <color name="config_color_background">#F4F5F7</color>
+    <color name="config_color_background_pressed">#EEEFF1</color>
+    <color name="config_color_black">#212832</color>
+    <color name="config_color_blue">#1B88EE</color>
+    <color name="config_color_divider_darken">#D4D6D8</color>
+    <color name="config_color_gray_1">#353C46</color>
+    <color name="config_color_gray_2">#49505A</color>
+    <color name="config_color_gray_3">#5D646E</color>
+    <color name="config_color_gray_4">#717882</color>
+    <color name="config_color_gray_5">#858C96</color>
+    <color name="config_color_gray_6">#99A0AA</color>
+    <color name="config_color_gray_7">#ADB4BE</color>
+    <color name="config_color_gray_8">#C4C8D0</color>
+    <color name="config_color_gray_9">#D8DCE4</color>
+    <color name="config_color_pressed">#EEEEF0</color>
+    <color name="config_color_red">#FA3A3A</color>
+    <color name="config_color_transparent">#00000000</color>
+    <color name="config_color_white">#ffffff</color>
+    <color name="divider">#DEE0E2</color>
+    <declare-styleable name="CustomTitleBar"><attr format="enum" name="titlebar_title_gravity"><enum name="left_center" value="19"/><enum name="center" value="17"/></attr><attr format="boolean" name="titlebar_show_divider"/><attr format="color" name="titlebar_divider_color"/><attr format="dimension" name="titlebar_divider_height"/><attr format="color" name="titlebar_bg_color"/><attr format="reference" name="titlebar_left_back_drawable_id"/><attr format="dimension" name="titlebar_title_text_size"/><attr format="dimension" name="titlebar_title_text_size_with_subtitle"/><attr format="dimension" name="titlebar_subtitle_text_size"/><attr format="color" name="titlebar_title_color"/><attr format="color" name="titlebar_subtitle_color"/><attr format="dimension" name="titlebar_title_margin_horizontal_when_no_btn_aside"/><attr format="dimension" name="titlebar_title_container_padding_horizontal"/><attr format="dimension" name="titlebar_image_btn_width"/><attr format="dimension" name="titlebar_image_btn_height"/><attr format="dimension" name="titlebar_text_btn_padding_horizontal"/><attr format="reference" name="titlebar_text_btn_color_state_list"/><attr format="dimension" name="titlebar_text_btn_text_size"/></declare-styleable>
+    <item name="titlebar_item_left_back" type="id"/>
+    <string name="app_name">CommonTitleBar</string>
+    <style name="AppBaseTheme" parent="AppRootTheme">
+        <item name="android:imageButtonStyle">@style/ImageButton</item>
+        <item name="android:buttonStyle">@style/Button</item>
+        <item name="android:textViewStyle">@style/TextView</item>
+    </style>
+    <style name="AppBaseTheme.Compat" parent="AppRootTheme.Compat">
+        <item name="android:imageButtonStyle">@style/ImageButton.Compat</item>
+        <item name="android:buttonStyle">@style/Button.Compat</item>
+        <item name="android:textViewStyle">@style/TextView.Compat</item>
+    </style>
+    <style name="AppConfigTheme" parent="AppBaseTheme"/>
+    <style name="AppConfigTheme.Compat" parent="AppBaseTheme.Compat"/>
+    <style name="AppRootTheme" parent="android:Theme.Holo.Light"/>
+    <style name="AppRootTheme.Compat" parent="Theme.AppCompat.Light"/>
+    <style name="Button" parent="ButtonBase"/>
+    <style name="Button.Compat" parent="ButtonBase.Compat"/>
+    <style name="ButtonBase" parent="android:Widget.Holo.Light.Button"/>
+    <style name="ButtonBase.Compat" parent="@style/Widget.AppCompat.Button">
+        <!-- 取消 Button 字符默认大写的功能（会导致 Spannable 失效），默认值只影响 5.0 以上版本，但使用Compat包后，4.x 版本也会受到影响 -->
+        <!-- http://stackoverflow.com/questions/29007746/button-settext-with-spannable-dosent-work-for-android-5-0-lollipop -->
+        <item name="android:textAllCaps">false</item>
+    </style>
+    <style name="CustomTitleBar" parent="AppConfigTheme">
+
+        <!--**********************************************
+         *                common color               *
+         **********************************************-->
+        <item name="config_color_divider">@color/divider</item>
+        <item name="config_color_divider_darken">@color/config_color_divider_darken</item>
+        <item name="config_color_background">@color/config_color_background</item>
+        <item name="config_color_background_pressed">@color/config_color_background_pressed</item>
+        <item name="config_color_pressed">@color/config_color_pressed</item>
+        <item name="config_color_blue">@color/config_color_blue</item>
+        <item name="config_color_red">@color/config_color_red</item>
+        <item name="alpha_pressed">0.5</item>
+        <item name="alpha_disabled">0.5</item>
+
+             <!--**********************************************
+               *                TitleBar              *
+               **********************************************-->
+        <item name="titlebar_height">56dp</item>
+        <!--<item name="titlebar_title_color">@color/config_color_gray_1</item>-->
+        <!--<item name="titlebar_title_text_size">17sp</item>-->
+        <!--<item name="titlebar_title_text_size_with_subtitle">16sp</item>-->
+        <!--<item name="titlebar_title_margin_horizontal_when_no_btn_aside">0dp</item>-->
+        <!--<item name="titlebar_title_container_padding_horizontal">8dp</item>-->
+        <!--<item name="titlebar_subtitle_text_size">11sp</item>-->
+        <!--<item name="titlebar_subtitle_color">@color/config_color_gray_1</item>-->
+        <!--<item name="titlebar_image_btn_width">48dp</item>-->
+        <!--<item name="titlebar_image_btn_height">48dp</item>-->
+        <!--<item name="titlebar_text_btn_padding_horizontal">12dp</item>-->
+        <!--<item name="titlebar_text_btn_color_state_list">@color/titlebar_text_color</item>-->
+        <!--<item name="titlebar_text_btn_text_size">16sp</item>-->
+        <!--<item name="CustomTitleBarStyle">@style/CustomTitleBar.TopBar</item>-->
+
+    </style>
+    <style name="CustomTitleBar.Compat" parent="AppConfigTheme.Compat">
+
+        <!--**********************************************
+        *                common color               *
+        **********************************************-->
+        <item name="config_color_divider">@color/divider</item>
+        <item name="config_color_divider_darken">@color/config_color_divider_darken</item>
+        <item name="config_color_background">@color/config_color_background</item>
+        <item name="config_color_background_pressed">@color/config_color_background_pressed</item>
+        <item name="config_color_pressed">@color/config_color_pressed</item>
+        <item name="config_color_blue">@color/config_color_blue</item>
+        <item name="config_color_red">@color/config_color_red</item>
+        <item name="alpha_pressed">0.5</item>
+        <item name="alpha_disabled">0.5</item>
+
+
+        <!--**********************************************
+        *                TitleBar              *
+        **********************************************-->
+        <item name="titlebar_height">56dp</item>
+        <!--<item name="titlebar_title_color">@color/config_color_gray_1</item>-->
+        <!--<item name="titlebar_title_text_size">17sp</item>-->
+        <!--<item name="titlebar_title_text_size_with_subtitle">16sp</item>-->
+        <!--<item name="titlebar_title_margin_horizontal_when_no_btn_aside">0dp</item>-->
+        <!--<item name="titlebar_title_container_padding_horizontal">8dp</item>-->
+        <!--<item name="titlebar_subtitle_text_size" >11sp</item>-->
+        <!--<item name="titlebar_subtitle_color">@color/config_color_gray_1</item>-->
+        <!--<item name="titlebar_image_btn_width">48dp</item>-->
+        <!--<item name="titlebar_image_btn_height">48dp</item>-->
+        <!--<item name="titlebar_text_btn_padding_horizontal">12dp</item>-->
+        <!--<item name="titlebar_text_btn_color_state_list">@color/titlebar_text_color</item>-->
+        <!--<item name="titlebar_text_btn_text_size">16sp</item>-->
+        <!--<item name="CustomTitleBarStyle">@style/CustomTitleBar.TopBar</item>-->
+
+    </style>
+    <style name="CustomTitleBar.Compat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="CustomTitleBar.NoActionBar">
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <style name="CustomTitleBar.TopBar">
+        <item name="titlebar_divider_color">?attr/config_color_divider</item>
+        <item name="titlebar_divider_height">1px</item>
+        <item name="titlebar_bg_color">@color/config_color_white</item>
+        <item name="titlebar_title_color">?attr/config_color_gray_1</item>
+        <item name="titlebar_title_text_size">17sp</item>
+        <item name="titlebar_show_divider">true</item>
+        <item name="titlebar_left_back_drawable_id">@drawable/icon_titlebar_back</item>
+        <item name="titlebar_title_gravity">center</item>
+        <item name="android:paddingLeft">4dp</item>
+        <item name="android:paddingRight">4dp</item>
+        <item name="titlebar_title_text_size_with_subtitle">16sp</item>
+        <item name="titlebar_title_margin_horizontal_when_no_btn_aside">0dp</item>
+        <item name="titlebar_title_container_padding_horizontal">8dp</item>
+        <item name="titlebar_subtitle_text_size">11sp</item>
+        <item name="titlebar_subtitle_color">@color/config_color_gray_1</item>
+        <item name="titlebar_image_btn_width">48dp</item>
+        <item name="titlebar_image_btn_height">48dp</item>
+        <item name="titlebar_text_btn_padding_horizontal">12dp</item>
+        <item name="titlebar_text_btn_color_state_list">@color/titlebar_text_color</item>
+        <item name="titlebar_text_btn_text_size">16sp</item>
+    </style>
+    <style name="ImageButton" parent="ImageButtonBase">
+        <item name="android:background">@color/config_color_transparent</item>
+    </style>
+    <style name="ImageButton.Compat" parent="ImageButtonBase.Compat">
+        <item name="android:background">@color/config_color_transparent</item>
+    </style>
+    <style name="ImageButtonBase" parent="android:Widget.Holo.Light.ImageButton"/>
+    <style name="ImageButtonBase.Compat" parent="@style/Widget.AppCompat.ImageButton"/>
+    <style name="TextAppearanceBase" parent="android:TextAppearance.Holo"/>
+    <style name="TextView" parent="android:Widget.TextView">
+        <item name="android:textAppearance">@style/UITextAppearance</item>
+        <!-- textColorHighlight 放在appearance中无效，好像TextView总是默认存在一个textColorHighlight
+             会覆盖掉它，并不知道原因 -->
+        <item name="android:textColorHighlight">?attr/config_color_background_pressed</item>
+    </style>
+    <style name="TextView.Compat" parent="android:Widget.TextView">
+        <item name="android:textAppearance">@style/UITextAppearance</item>
+        <!-- textColorHighlight 放在appearance中无效，好像TextView总是默认存在一个textColorHighlight
+             会覆盖掉它，并不知道原因 -->
+        <item name="android:textColorHighlight">?attr/config_color_background_pressed</item>
+    </style>
+    <style name="UITextAppearance" parent="TextAppearanceBase">
+        <item name="android:textColor">?attr/config_color_black</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColorHighlight">?attr/config_color_background_pressed</item>
+    </style>
+</resources>

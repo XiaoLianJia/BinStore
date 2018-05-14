@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <array name="banner_url">
+    <array name="banner_url"><!-- HomeFragment -->
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic1xjab4j30ci08cjrv.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic21363tj30ci08ct96.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic259ohaj30ci08c74r.jpg</item>
         <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2b16zuj30ci08cwf4.jpg</item>
-        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item>
+        <item>http://ww4.sinaimg.cn/large/006uZZy8jw1faic2e7vsaj30ci08cglz.jpg</item><!--
+        <item>http://localhost:8080/images/banner/banner_01.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_02.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_03.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_04.jpg</item>
+        <item>http://localhost:8080/images/banner/banner_05.jpg</item>-->
     </array>
-    <array name="categories_titles">
+    <array name="categories_titles"><!-- HomeFragment -->
         <item>@string/category_item_01</item>
         <item>@string/category_item_02</item>
         <item>@string/category_item_03</item>
@@ -19,7 +24,7 @@
         <item>@string/category_item_09</item>
         <item>@string/category_item_10</item>
     </array>
-    <array name="categories_icons">
+    <array name="categories_icons"><!-- HomeFragment -->
         <item>@drawable/ic_category_item_01</item>
         <item>@drawable/ic_category_item_02</item>
         <item>@drawable/ic_category_item_03</item>
@@ -31,15 +36,15 @@
         <item>@drawable/ic_category_item_09</item>
         <item>@drawable/ic_category_item_10</item>
     </array>
-    <array name="commodity_show_types_text">
+    <array name="commodity_show_types_text"><!-- CommodityActivity -->
         <item>@string/show_type_default</item>
         <item>@string/show_type_price</item>
         <item>@string/show_type_sales</item>
     </array>
-    <array name="commodity_show_types_image">
-        <item>@drawable/ic_arrow_drop_down</item>
-        <item>@drawable/ic_arrow_drop_up</item>
-        <item>@drawable/ic_arrow_drop_up</item>
-        <item>@drawable/ic_tab_grid</item>
+    <array name="commodity_show_types_image"><!-- CommodityActivity -->
+        <item>@drawable/ic_arrow_down</item>
+        <item>@drawable/ic_arrow_up</item>
+        <item>@drawable/ic_arrow_up</item>
+        <item>@drawable/ic_view_grid</item>
     </array>
 </resources>

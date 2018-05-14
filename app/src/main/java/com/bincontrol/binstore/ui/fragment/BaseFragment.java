@@ -12,10 +12,11 @@ public class BaseFragment extends Fragment {
 
     private static final String TAG = BaseFragment.class.getSimpleName();
 
+
     /**
      * 开启一个Activity，带动画效果
-     * @param mClass
-     * @param bundle
+     * @param mClass class
+     * @param bundle bundle
      */
     protected void openActivity(Class<?> mClass, Bundle bundle) {
         Intent intent = new Intent(getActivity(), mClass);
@@ -26,7 +27,9 @@ public class BaseFragment extends Fragment {
             Log.d(TAG, "openActivity without bundle: " + mClass.getSimpleName());
         }
         startActivity(intent);
-        getActivity().overridePendingTransition(R.anim.anim_push_left_in,R.anim.anim_push_left_out);
+        if (getActivity() != null) {
+            getActivity().overridePendingTransition(R.anim.anim_push_left_in, R.anim.anim_push_left_out);
+        }
     }
 
     protected void openActivity(Class<?> mClass) {
@@ -36,8 +39,8 @@ public class BaseFragment extends Fragment {
 
     /**
      * 开启一个Activity，无动画效果
-     * @param mClass
-     * @param bundle
+     * @param mClass class
+     * @param bundle bundle
      */
     protected void openActivityWithoutAnim(Class<?> mClass, Bundle bundle) {
         Intent intent = new Intent(getActivity(), mClass);
@@ -57,8 +60,8 @@ public class BaseFragment extends Fragment {
 
     /**
      * 开启一个Activity，带动画效果
-     * @param action
-     * @param bundle
+     * @param action action
+     * @param bundle bundle
      */
     protected void openActivity(String action, Bundle bundle) {
         Intent intent = new Intent(action);
@@ -69,7 +72,9 @@ public class BaseFragment extends Fragment {
             Log.d(TAG, "openActivity without bundle, by action: " + action);
         }
         startActivity(intent);
-        getActivity().overridePendingTransition(R.anim.anim_push_left_in,R.anim.anim_push_left_out);
+        if (getActivity() != null) {
+            getActivity().overridePendingTransition(R.anim.anim_push_left_in, R.anim.anim_push_left_out);
+        }
     }
 
     protected void openActivity(String action) {
@@ -79,8 +84,8 @@ public class BaseFragment extends Fragment {
 
     /**
      * 开启一个Activity，无动画效果
-     * @param action
-     * @param bundle
+     * @param action action
+     * @param bundle bundle
      */
     protected void openActivityWithoutAnim(String action, Bundle bundle) {
         Intent intent = new Intent(action);

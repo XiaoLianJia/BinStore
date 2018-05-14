@@ -31,7 +31,7 @@
         </activity>
         <!-- 商品相关 -->
         <activity
-            android:name=".ui.activity.GenericCategoryActivity"
+            android:name=".ui.activity.CommodityActivity"
             android:parentActivityName=".ui.activity.MainActivity"
             android:theme="@style/CustomTitleBarTheme" />
         <!-- 用户相关 -->

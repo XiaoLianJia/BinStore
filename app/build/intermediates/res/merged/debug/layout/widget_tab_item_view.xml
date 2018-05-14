@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+
+    <ImageView
+        android:id="@+id/image_view_list"
+        android:contentDescription="@string/list_view_image"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_view_list"/>
+
+    <ImageView
+        android:id="@+id/image_view_grid"
+        android:contentDescription="@string/grid_view_image"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_view_grid"
+        android:visibility="gone" />
+</FrameLayout>

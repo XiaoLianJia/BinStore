@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center">
+
+    <!-- 选项名称 -->
+    <TextView
+        android:id="@+id/text_view_sort"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp"
+        android:layout_centerVertical="true"
+        android:gravity="end" />
+
+    <!-- 复合图标布局 -->
+    <LinearLayout
+        android:layout_width="17dp"
+        android:layout_height="24dp"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/text_view_sort"
+        android:layout_toRightOf="@id/text_view_sort"
+        android:layout_centerVertical="true"
+        android:paddingStart="5dp"
+        android:paddingLeft="5dp"
+        android:paddingEnd="0dp"
+        android:paddingRight="0dp"
+        android:gravity="start">
+
+        <ImageView
+            android:id="@+id/image_view_ascending"
+            android:contentDescription="@string/ascending_order_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_arrow_up" />
+
+        <ImageView
+            android:id="@+id/image_view_descending"
+            android:contentDescription="@string/descending_order_image"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:src="@drawable/ic_arrow_down" />
+    </LinearLayout>
+</RelativeLayout>

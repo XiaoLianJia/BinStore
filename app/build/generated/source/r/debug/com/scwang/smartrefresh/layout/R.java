@@ -67,11 +67,11 @@ public final class R {
 		public static final int srlTextTimeMarginTop = 0x7f010128;
 	}
 	public static final class id {
-		public static final int FixedBehind = 0x7f0f0066;
-		public static final int FixedFront = 0x7f0f0067;
-		public static final int MatchLayout = 0x7f0f0068;
-		public static final int Scale = 0x7f0f0069;
-		public static final int Translate = 0x7f0f006a;
+		public static final int FixedBehind = 0x7f0f0067;
+		public static final int FixedFront = 0x7f0f0068;
+		public static final int MatchLayout = 0x7f0f0069;
+		public static final int Scale = 0x7f0f006a;
+		public static final int Translate = 0x7f0f006b;
 	}
 	public static final class string {
 		public static final int srl_component_falsify = 0x7f0800dd;

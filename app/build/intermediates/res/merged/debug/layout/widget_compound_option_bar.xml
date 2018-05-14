@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- item的上分割线 -->
+    <View
+        android:id="@+id/view_divider_line_top"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+    <!-- item的容器 -->
+    <LinearLayout
+        android:id="@+id/linear_layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <!-- item左侧的图标 -->
+        <ImageView
+            android:id="@+id/image_view_left"
+            android:contentDescription="@string/compound_icon_left"
+            android:layout_width="20dp"
+            android:layout_height="20dp" />
+
+        <!-- item左侧的文字 -->
+        <TextView
+            android:id="@+id/text_view_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginLeft="12dp"
+            android:layout_weight="1"
+            android:textSize="14sp" />
+
+        <!-- item的输入框 -->
+        <EditText
+            android:id="@+id/edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:background="@android:color/transparent"
+            android:inputType="none"
+            android:hint="@null"
+            android:lines="1"
+            android:maxLines="1"
+            android:textSize="14sp" />
+
+        <!-- item右侧的文字 -->
+        <TextView
+            android:id="@+id/text_view_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp" />
+
+        <!-- item右侧的图标 -->
+        <ImageView
+            android:id="@+id/image_view_right"
+            android:contentDescription="@string/compound_icon_right"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp" />
+    </LinearLayout>
+
+    <!-- item的下分割线 -->
+    <View
+        android:id="@+id/view_divider_line_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/gray" />
+
+</LinearLayout>
